@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.2,
     },
+    {
+      url: `${SITE.url}/criterios-editoriales`,
+      lastModified: new Date(SITE.updated),
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
     ...seoPages.map((page) => ({
       url: `${SITE.url}/${page.slug}`,
       lastModified: new Date(SITE.updated),
