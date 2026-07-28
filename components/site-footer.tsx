@@ -30,7 +30,7 @@ export function SiteFooter() {
       </div>
       <div className="footer-legal">
         <p>© {new Date().getFullYear()} {SITE.name}</p>
-        <p><Link href="/privacidad">Privacidad</Link> · Contenido informativo general. No reemplaza el análisis jurídico de un caso concreto.</p>
+        <p><Link href="/criterios-editoriales">Criterios editoriales</Link> · <Link href="/privacidad">Privacidad</Link> · Contenido informativo general.</p>
       </div>
     </footer>
   );
