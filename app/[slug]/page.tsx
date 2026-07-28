@@ -7,7 +7,7 @@ import { FaqList } from "@/components/faq-list";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
-import { getSeoPage, seoPages, SITE, whatsappUrl } from "@/lib/site";
+import { getGeoContent, getSeoPage, seoPages, SITE, whatsappUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return seoPages.map((page) => ({ slug: page.slug }));
@@ -36,6 +36,7 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
   const page = getSeoPage(slug);
   if (!page) notFound();
 
+  const geo = getGeoContent(page.slug);
   const related = page.related.map(getSeoPage).filter(Boolean);
   const message = `Hola. Quisiera consultar por ${page.eyebrow.toLowerCase()} en la Provincia de Buenos Aires.`;
   const jsonLd = {
@@ -52,6 +53,7 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
         author: { "@type": "Organization", name: SITE.name, url: SITE.url },
         publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
         about: { "@type": "Thing", name: page.eyebrow },
+        citation: geo?.sources.map((source) => source.url),
       },
       {
         "@type": "BreadcrumbList",
@@ -98,6 +100,16 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
                 <p>{page.answer}</p>
               </section>
 
+              {geo && (
+                <section className="geo-summary" aria-labelledby="puntos-clave">
+                  <p className="section-kicker">En síntesis</p>
+                  <h2 id="puntos-clave">Tres puntos clave</h2>
+                  <ul>
+                    {geo.keyPoints.map((point) => <li key={point}><CheckIcon />{point}</li>)}
+                  </ul>
+                </section>
+              )}
+
               {page.sections.map((section) => (
                 <section className="article-section" key={section.title}>
                   <h2>{section.title}</h2>
@@ -110,10 +122,29 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
                 </section>
               ))}
 
+              {geo && (
+                <>
+                  <section className="practical-scenario">
+                    <p className="section-kicker">Caso práctico</p>
+                    <h2>Cómo puede presentarse esta situación</h2>
+                    <p>{geo.scenario}</p>
+                    <small>Ejemplo general e hipotético. No describe a una persona ni anticipa el resultado de un caso concreto.</small>
+                  </section>
+
+                  <section className="decision-checklist">
+                    <p className="section-kicker">Para orientar el análisis</p>
+                    <h2>Preguntas que conviene responder</h2>
+                    <ol>
+                      {geo.questions.map((question) => <li key={question}>{question}</li>)}
+                    </ol>
+                  </section>
+                </>
+              )}
+
               <section className="article-note">
-                <h2>Una aclaración importante</h2>
+                <h2>Criterio editorial y alcance</h2>
                 <p>
-                  Esta guía ofrece información general y fue revisada el 28 de julio de 2026. La solución aplicable depende de los vínculos, los bienes, la documentación y el estado de cada expediente.
+                  Esta guía ofrece información general, fue revisada por el equipo de Abogados de Sucesiones en La Plata el 28 de julio de 2026 y se apoya en fuentes públicas oficiales. La solución aplicable depende de los vínculos, los bienes, la documentación y el estado de cada expediente. <Link href="/criterios-editoriales">Conocé cómo elaboramos y actualizamos el contenido</Link>.
                 </p>
               </section>
 
@@ -125,11 +156,13 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
 
               <section className="sources">
                 <h2>Fuentes normativas y judiciales</h2>
-                <p>Contenido elaborado a partir de fuentes públicas oficiales:</p>
+                <p>Fuentes oficiales consultadas específicamente para esta guía:</p>
                 <ul>
-                  <li><a href="https://www.argentina.gob.ar/normativa/nacional/235975/texto" target="_blank" rel="noreferrer">Código Civil y Comercial de la Nación</a></li>
-                  <li><a href="https://normas.gba.gob.ar/documentos/BOa6XTk0.html" target="_blank" rel="noreferrer">Ley 14.967 de honorarios profesionales de la Provincia</a></li>
-                  <li><a href="https://www.scba.gov.ar/" target="_blank" rel="noreferrer">Suprema Corte de Justicia de la Provincia de Buenos Aires</a></li>
+                  {geo?.sources.map((source) => (
+                    <li key={source.url}>
+                      <a href={source.url} target="_blank" rel="noreferrer">{source.name}</a>: {source.detail}
+                    </li>
+                  ))}
                 </ul>
               </section>
             </div>
@@ -175,4 +208,3 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
     </>
   );
 }
-
