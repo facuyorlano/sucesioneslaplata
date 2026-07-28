@@ -36,6 +36,19 @@ export type SeoPage = {
   related: string[];
 };
 
+export type OfficialSource = {
+  name: string;
+  detail: string;
+  url: string;
+};
+
+export type GeoContent = {
+  keyPoints: string[];
+  scenario: string;
+  questions: string[];
+  sources: OfficialSource[];
+};
+
 export const seoPages: SeoPage[] = [
   {
     slug: "declaratoria-de-herederos",
@@ -532,6 +545,184 @@ export function getSeoPage(slug: string) {
   return seoPages.find((page) => page.slug === slug);
 }
 
+const civilCodeSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Libro Quinto: transmisión de derechos por causa de muerte.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/235975/texto",
+};
+
+const proceduralCodeSource: OfficialSource = {
+  name: "Código Procesal Civil y Comercial bonaerense",
+  detail: "Decreto-Ley 7.425/68, texto actualizado; proceso sucesorio.",
+  url: "https://normas.gba.gob.ar/documentos/VrQlgSOB.html",
+};
+
+const scbaSource: OfficialSource = {
+  name: "Suprema Corte de Justicia de la Provincia de Buenos Aires",
+  detail: "Información institucional, órganos judiciales y servicios del Poder Judicial.",
+  url: "https://www.scba.gov.ar/",
+};
+
+const registryLawSource: OfficialSource = {
+  name: "Ley Nacional Registral Inmobiliaria 17.801",
+  detail: "Publicidad registral, tracto sucesivo y supuestos de tracto abreviado.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/norma-53050/texto",
+};
+
+const registryManualSource: OfficialSource = {
+  name: "Registro de la Propiedad de la Provincia de Buenos Aires",
+  detail: "Manual de Registración, módulo de tracto abreviado.",
+  url: "https://www.rpba.gov.ar/files/Normas/Manual/M%C3%B3dulo713.pdf",
+};
+
+const feesSource: OfficialSource = {
+  name: "Ley 14.967 de la Provincia de Buenos Aires",
+  detail: "Régimen de honorarios de abogados y procuradores.",
+  url: "https://normas.gba.gob.ar/documentos/BOa6XTk0.html",
+};
+
+export const geoContent: Record<string, GeoContent> = {
+  "declaratoria-de-herederos": {
+    keyPoints: [
+      "Reconoce judicialmente a quienes acreditaron vocación hereditaria.",
+      "No equivale, por sí sola, a inscribir cada bien a nombre de los herederos.",
+      "Puede ampliarse si luego se presenta otra persona con derecho.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una familia obtiene la declaratoria, pero quiere vender un inmueble. Antes de comprometer la operación debe revisar el estado registral, las cargas del expediente y si corresponde inscribir o utilizar tracto abreviado.",
+    questions: [
+      "¿Quiénes tienen posible vocación hereditaria?",
+      "¿Qué bienes integran el patrimonio conocido?",
+      "¿El objetivo es conservar, adjudicar, cobrar o vender?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource, scbaSource],
+  },
+  "sucesion-sin-testamento": {
+    keyPoints: [
+      "La ley establece el orden de quienes pueden ser llamados a heredar.",
+      "El último domicilio del causante es un dato central para determinar la competencia.",
+      "Los porcentajes no deben estimarse sin reconstruir vínculos y régimen patrimonial.",
+    ],
+    scenario:
+      "Ejemplo orientativo: fallece una persona casada y con descendientes. Para determinar derechos no alcanza con contar familiares: hay que distinguir vínculos, bienes propios y gananciales y la situación existente al fallecimiento.",
+    questions: [
+      "¿Existían cónyuge, descendientes, ascendientes u otros parientes?",
+      "¿Cuál fue el último domicilio real de la persona fallecida?",
+      "¿Hay bienes propios, gananciales o de titularidad dudosa?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource],
+  },
+  "sucesion-con-testamento": {
+    keyPoints: [
+      "El testamento debe analizarse dentro del proceso sucesorio.",
+      "Su forma, vigencia y contenido pueden requerir control judicial.",
+      "Las disposiciones deben respetar los límites legales aplicables.",
+    ],
+    scenario:
+      "Ejemplo orientativo: aparece un testamento que asigna un bien concreto a una persona. Debe verificarse si es el último, si cumple las formalidades y cómo se relaciona con los derechos de los herederos legitimarios.",
+    questions: [
+      "¿Qué tipo de testamento existe y dónde está su original?",
+      "¿Hay disposiciones posteriores o indicios de revocación?",
+      "¿Existen herederos con porción legítima protegida?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource],
+  },
+  "tracto-abreviado": {
+    keyPoints: [
+      "Permite coordinar la transmisión hereditaria con el acto de disposición posterior.",
+      "No reemplaza ni evita el proceso sucesorio.",
+      "Exige coordinación entre expediente, escribanía y Registro de la Propiedad.",
+    ],
+    scenario:
+      "Ejemplo orientativo: los herederos acuerdan vender un inmueble todavía registrado a nombre del causante. Si el expediente y la documentación están en condiciones, puede evaluarse que la inscripción hereditaria y la venta ingresen registralmente de manera relacionada.",
+    questions: [
+      "¿Ya existe declaratoria o aprobación judicial del testamento?",
+      "¿Todas las personas que deben intervenir están de acuerdo?",
+      "¿El título, los informes y las cargas del expediente están ordenados?",
+    ],
+    sources: [registryLawSource, registryManualSource, proceduralCodeSource],
+  },
+  "inscripcion-de-bienes-heredados": {
+    keyPoints: [
+      "Cada tipo de bien tiene requisitos registrales propios.",
+      "Declaratoria, partición, adjudicación e inscripción cumplen funciones diferentes.",
+      "Los informes y certificados deben coordinarse porque pueden tener vigencia limitada.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una sucesión incluye un inmueble y un automotor. Aunque ambos integren la misma herencia, su regularización requiere documentación, organismos y recaudos diferentes.",
+    questions: [
+      "¿Qué clase de bienes deben inscribirse?",
+      "¿Se busca mantenerlos en común, adjudicarlos o venderlos?",
+      "¿Existen deudas, cautelares u observaciones registrales?",
+    ],
+    sources: [civilCodeSource, registryLawSource, registryManualSource],
+  },
+  "conflictos-entre-herederos": {
+    keyPoints: [
+      "Primero debe identificarse cuál es el desacuerdo jurídicamente relevante.",
+      "La falta de acuerdo no siempre impide impulsar el proceso sucesorio.",
+      "Uso exclusivo, administración y partición son problemas distintos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una persona ocupa el único inmueble y otra pretende venderlo. Antes de elegir una medida conviene determinar quiénes son los herederos, qué gastos afrontó cada parte, cuál es el uso actual y qué resultado concreto se busca.",
+    questions: [
+      "¿El conflicto es por ocupación, administración, venta o distribución?",
+      "¿Qué documentos y comprobantes existen?",
+      "¿Hay una urgencia patrimonial separable de la discusión familiar?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource, scbaSource],
+  },
+  "documentos-para-iniciar-una-sucesion": {
+    keyPoints: [
+      "Las partidas prueban fallecimiento y vínculos familiares.",
+      "El último domicilio orienta la competencia judicial.",
+      "La documentación patrimonial permite planificar las etapas posteriores.",
+    ],
+    scenario:
+      "Ejemplo orientativo: si todavía no aparece la escritura de un inmueble, puede realizarse una evaluación inicial con sus datos de ubicación y titularidad, y definir qué informe o testimonio será necesario obtener.",
+    questions: [
+      "¿Qué partidas y documentos personales ya están disponibles?",
+      "¿Qué bienes, cuentas o derechos se conocen?",
+      "¿Hay diferencias de nombres, fechas o estado civil?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource],
+  },
+  "costo-de-una-sucesion-en-provincia-de-buenos-aires": {
+    keyPoints: [
+      "Honorarios, cargas judiciales y gastos de terceros son conceptos diferentes.",
+      "El patrimonio y el objetivo del trámite modifican la estimación.",
+      "Un presupuesto responsable debe aclarar alcance y etapas.",
+    ],
+    scenario:
+      "Ejemplo orientativo: inscribir un inmueble para conservarlo y preparar su venta por tracto abreviado no generan exactamente las mismas tareas ni intervenciones. Por eso una cifra aislada puede resultar engañosa.",
+    questions: [
+      "¿Qué bienes integran la sucesión y dónde están registrados?",
+      "¿Existe acuerdo o controversia entre interesados?",
+      "¿Qué actuaciones y gastos de terceros incluye el presupuesto?",
+    ],
+    sources: [feesSource, proceduralCodeSource, registryLawSource],
+  },
+  "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires": {
+    keyPoints: [
+      "No existe un plazo universal aplicable a todas las sucesiones.",
+      "La declaratoria puede no ser el último paso necesario.",
+      "Documentación, notificaciones, conflictos y registros inciden en el recorrido.",
+    ],
+    scenario:
+      "Ejemplo orientativo: dos expedientes iniciados el mismo día pueden requerir recorridos diferentes si uno solo busca acreditar herederos y el otro necesita vender un inmueble con documentación incompleta.",
+    questions: [
+      "¿Cuál es el resultado concreto que se necesita alcanzar?",
+      "¿La documentación familiar y patrimonial está completa?",
+      "¿Intervienen terceros, registros o personas que deben ser notificadas?",
+    ],
+    sources: [proceduralCodeSource, scbaSource, registryLawSource],
+  },
+};
+
+export function getGeoContent(slug: string) {
+  return geoContent[slug];
+}
+
 export const homeFaqs = [
   {
     question: "¿Puedo iniciar una sucesión si otro heredero no quiere?",
@@ -554,4 +745,3 @@ export const homeFaqs = [
       "Depende del patrimonio, la documentación, las etapas requeridas y la existencia de conflictos. No comunicamos cifras ni plazos genéricos sin revisar el caso.",
   },
 ];
-
