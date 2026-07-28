@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Abogados de Sucesiones en La Plata",
   shortName: "Sucesiones La Plata",
-  url: "https://sucesioneslaplata.com",
+  url: "https://www.sucesioneslaplata.com",
   email: "yorlanoabogados@gmail.com",
   phoneDisplay: "221 202-3887",
   phoneInternational: "+54 9 221 202-3887",
