@@ -80,9 +80,9 @@ export default function Home() {
         <section className="hero">
           <div className="hero-content">
             <p className="eyebrow">Derecho sucesorio · Provincia de Buenos Aires</p>
-            <h1>Una sucesión no debería sumar más incertidumbre</h1>
+            <h1>Abogados de sucesiones en La Plata y Provincia de Buenos Aires</h1>
             <p className="hero-lead">
-              Asesoramiento jurídico claro y humano para iniciar, ordenar y avanzar con una sucesión en la Provincia de Buenos Aires.
+              Una sucesión no debería sumar más incertidumbre. Brindamos asesoramiento jurídico claro y humano para iniciar, ordenar y avanzar.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href={whatsappUrl()} target="_blank" rel="noreferrer">
