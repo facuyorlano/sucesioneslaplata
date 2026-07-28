@@ -1035,6 +1035,9 @@ a {
 }
 
 .article-section h2,
+.geo-summary h2,
+.practical-scenario h2,
+.decision-checklist h2,
 .article-note h2,
 .article-faq h2,
 .sources h2,
@@ -1049,6 +1052,7 @@ a {
 }
 
 .article-section p,
+.practical-scenario p,
 .article-note p,
 .sources p,
 .sources li {
@@ -1082,6 +1086,107 @@ a {
   color: var(--terracotta);
 }
 
+.geo-summary,
+.practical-scenario,
+.decision-checklist {
+  margin-bottom: 64px;
+}
+
+.geo-summary {
+  padding: 34px 38px;
+  border: 1px solid var(--line);
+  background: var(--paper-light);
+}
+
+.geo-summary .section-kicker,
+.practical-scenario .section-kicker,
+.decision-checklist .section-kicker {
+  margin-bottom: 14px;
+}
+
+.geo-summary h2,
+.practical-scenario h2,
+.decision-checklist h2 {
+  font-size: 31px;
+}
+
+.geo-summary ul {
+  display: grid;
+  margin: 26px 0 0;
+  padding: 0;
+  gap: 14px;
+  list-style: none;
+}
+
+.geo-summary li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #53484c;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.geo-summary li svg {
+  width: 20px;
+  min-width: 20px;
+  margin-top: 3px;
+  color: var(--terracotta);
+}
+
+.practical-scenario {
+  padding: 36px 38px;
+  border-left: 4px solid var(--wine);
+  background: #f1e7dc;
+}
+
+.practical-scenario p {
+  margin-bottom: 14px;
+}
+
+.practical-scenario small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.decision-checklist ol {
+  display: grid;
+  margin: 28px 0 0;
+  padding: 0;
+  gap: 12px;
+  list-style: none;
+  counter-reset: decision;
+}
+
+.decision-checklist li {
+  display: grid;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  grid-template-columns: 34px 1fr;
+  align-items: center;
+  gap: 12px;
+  color: #53484c;
+  background: var(--paper-light);
+  font-size: 16px;
+  line-height: 1.55;
+  counter-increment: decision;
+}
+
+.decision-checklist li::before {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  content: counter(decision);
+  color: var(--paper-light);
+  background: var(--wine);
+  font-size: 12px;
+  font-weight: 700;
+  place-items: center;
+}
+
 .article-note {
   margin: 74px 0;
   padding: 34px 38px;
@@ -1096,6 +1201,13 @@ a {
 .article-note p {
   margin: 0;
   font-size: 14px;
+}
+
+.article-note a {
+  color: var(--wine);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .article-faq {
@@ -1280,6 +1392,24 @@ a {
   color: var(--wine);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.editorial-page article > p:not(.eyebrow, .updated, .editorial-back) {
+  margin-bottom: 18px;
+}
+
+.editorial-links {
+  display: grid;
+  margin: 20px 0 8px;
+  padding-left: 22px;
+  gap: 12px;
+  color: #53484c;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.editorial-back {
+  margin: 46px 0 0;
 }
 
 @media (max-width: 1180px) {
@@ -1683,6 +1813,9 @@ a {
   }
 
   .article-section h2,
+  .geo-summary h2,
+  .practical-scenario h2,
+  .decision-checklist h2,
   .article-faq h2 {
     font-size: 34px;
   }
@@ -1693,6 +1826,11 @@ a {
 
   .article-note {
     padding: 26px 24px;
+  }
+
+  .geo-summary,
+  .practical-scenario {
+    padding: 27px 24px;
   }
 
   .related-section {
