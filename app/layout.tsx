@@ -53,9 +53,6 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
-  other: {
-    "codex-preview": "development",
-  },
 };
 
 export const viewport: Viewport = {
@@ -71,4 +68,3 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </html>
   );
 }
-
