@@ -18,7 +18,7 @@ export function SiteHeader() {
           <Link href="/">Inicio</Link>
           <Link href="/#servicios">Sucesiones</Link>
           <Link href="/#como-trabajamos">Cómo trabajamos</Link>
-          <Link href="/#preguntas">Preguntas</Link>
+          <Link href="/guias-de-sucesiones">Guías</Link>
           <Link href="/#contacto">Contacto</Link>
         </nav>
 
@@ -33,6 +33,7 @@ export function SiteHeader() {
             <Link href="/">Inicio</Link>
             <Link href="/#servicios">Sucesiones</Link>
             <Link href="/#como-trabajamos">Cómo trabajamos</Link>
+            <Link href="/guias-de-sucesiones">Guías</Link>
             <Link href="/#preguntas">Preguntas</Link>
             <Link href="/#contacto">Contacto</Link>
           </nav>
@@ -41,4 +42,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
