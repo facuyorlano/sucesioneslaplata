@@ -7,7 +7,7 @@ export const SITE = {
   phoneInternational: "+54 9 221 202-3887",
   whatsappNumber: "5492212023887",
   location: "La Plata, Provincia de Buenos Aires",
-  updated: "2026-07-28",
+  updated: "2026-07-29",
 };
 
 export const defaultWhatsappMessage =
@@ -156,7 +156,7 @@ export const seoPages: SeoPage[] = [
           "Como regla, interviene el juez del último domicilio de la persona fallecida, con las excepciones previstas por la legislación aplicable.",
       },
     ],
-    related: ["declaratoria-de-herederos", "documentos-para-iniciar-una-sucesion", "conflictos-entre-herederos"],
+    related: ["declaratoria-de-herederos", "bienes-propios-y-gananciales-en-una-sucesion", "conflictos-entre-herederos"],
   },
   {
     slug: "sucesion-con-testamento",
@@ -263,7 +263,7 @@ export const seoPages: SeoPage[] = [
           "La expresión se usa principalmente en materia registral inmobiliaria. Otros bienes tienen procedimientos propios.",
       },
     ],
-    related: ["inscripcion-de-bienes-heredados", "declaratoria-de-herederos", "costo-de-una-sucesion-en-provincia-de-buenos-aires"],
+    related: ["vender-inmueble-en-una-sucesion", "inscripcion-de-bienes-heredados", "declaratoria-de-herederos"],
   },
   {
     slug: "inscripcion-de-bienes-heredados",
@@ -316,7 +316,7 @@ export const seoPages: SeoPage[] = [
           "Sí. Muchos certificados e informes tienen vigencia limitada, por lo que su solicitud debe coordinarse con el momento procesal adecuado.",
       },
     ],
-    related: ["declaratoria-de-herederos", "tracto-abreviado", "costo-de-una-sucesion-en-provincia-de-buenos-aires"],
+    related: ["sucesion-de-automotores-en-provincia-de-buenos-aires", "vender-inmueble-en-una-sucesion", "tracto-abreviado"],
   },
   {
     slug: "conflictos-entre-herederos",
@@ -370,7 +370,7 @@ export const seoPages: SeoPage[] = [
           "Depende del objetivo, la urgencia y la prueba disponible. Antes de formalizar una posición conviene definir qué se busca obtener y qué consecuencias puede producir.",
       },
     ],
-    related: ["sucesion-sin-testamento", "declaratoria-de-herederos", "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires"],
+    related: ["heredero-ocupa-inmueble-sucesion", "sucesion-sin-testamento", "declaratoria-de-herederos"],
   },
   {
     slug: "documentos-para-iniciar-una-sucesion",
@@ -434,7 +434,7 @@ export const seoPages: SeoPage[] = [
     slug: "costo-de-una-sucesion-en-provincia-de-buenos-aires",
     eyebrow: "Costos y honorarios",
     title: "¿Cuánto cuesta una sucesión en la Provincia de Buenos Aires?",
-    metaTitle: "Costo de una sucesión en Provincia de Buenos Aires",
+    metaTitle: "Costo de una sucesión en PBA",
     description:
       "Qué conceptos integran el costo de una sucesión en PBA: tasa de justicia, informes, aportes, inscripción y honorarios profesionales.",
     intro:
@@ -488,7 +488,7 @@ export const seoPages: SeoPage[] = [
     slug: "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires",
     eyebrow: "Tiempos del trámite",
     title: "¿Cuánto tarda una sucesión en la Provincia de Buenos Aires?",
-    metaTitle: "Cuánto tarda una sucesión en Provincia de Buenos Aires",
+    metaTitle: "Cuánto tarda una sucesión en PBA",
     description:
       "Factores que influyen en la duración de una sucesión en PBA: documentación, juzgado, herederos, bienes, conflictos e inscripción.",
     intro:
@@ -539,6 +539,226 @@ export const seoPages: SeoPage[] = [
     ],
     related: ["documentos-para-iniciar-una-sucesion", "declaratoria-de-herederos", "conflictos-entre-herederos"],
   },
+  {
+    slug: "vender-inmueble-en-una-sucesion",
+    eyebrow: "Venta de inmueble heredado",
+    title: "Cómo vender un inmueble dentro de una sucesión",
+    metaTitle: "Vender un inmueble en una sucesión",
+    description:
+      "Qué debe revisarse para vender un inmueble dentro de una sucesión en Provincia de Buenos Aires: declaratoria, acuerdo, título y tracto abreviado.",
+    intro:
+      "La venta de un inmueble heredado exige coordinar el expediente sucesorio, la situación registral y la operación comercial. Ofrecerlo antes de conocer esos elementos puede generar compromisos difíciles de cumplir.",
+    answer:
+      "Primero debe identificarse quiénes pueden disponer, en qué estado está la sucesión y qué documentación tiene el inmueble. Según el caso, puede inscribirse a nombre de los herederos, adjudicarse o transmitirse al comprador mediante tracto abreviado.",
+    sections: [
+      {
+        title: "Qué revisar antes de ofrecer el inmueble",
+        bullets: [
+          "Declaratoria de herederos o aprobación judicial del testamento.",
+          "Título, matrícula, nomenclatura catastral y estado registral.",
+          "Conformidad de las personas que deben intervenir.",
+          "Deudas, medidas cautelares, ocupación y estado material.",
+          "Cargas del expediente y documentación requerida para escriturar.",
+        ],
+      },
+      {
+        title: "Inscripción previa o tracto abreviado",
+        paragraphs: [
+          "Una alternativa es completar primero la inscripción hereditaria y vender después. Otra es evaluar el tracto abreviado, que permite relacionar registralmente la transmisión hereditaria con la venta al tercero cuando el expediente y la documentación se encuentran en condiciones.",
+          "La elección no depende solamente de una preferencia comercial: deben coordinarse el juzgado, la escribanía, el Registro de la Propiedad y las obligaciones aplicables al caso.",
+        ],
+      },
+      {
+        title: "Reservas, boletos y plazos",
+        paragraphs: [
+          "Antes de recibir una reserva o asumir una fecha de escritura conviene confirmar qué actuaciones faltan y quiénes deben firmar. El contrato comercial no reemplaza las conformidades hereditarias ni las órdenes necesarias para transmitir el dominio.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puede venderse antes de obtener la declaratoria de herederos?",
+        answer:
+          "La operación definitiva requiere que la legitimación sucesoria y el expediente alcancen el estado necesario. Antes de comprometer la venta debe revisarse qué actos son jurídicamente posibles.",
+      },
+      {
+        question: "¿Qué ocurre si un heredero no quiere vender?",
+        answer:
+          "La venta del inmueble completo requiere las conformidades correspondientes. La falta de acuerdo puede llevar a negociar una adjudicación, una cesión o promover la partición, según el caso.",
+      },
+      {
+        question: "¿El tracto abreviado evita inscribir la sucesión?",
+        answer:
+          "Evita una inscripción intermedia a nombre de los herederos cuando resulta procedente, pero no elimina el proceso sucesorio ni los controles judiciales, notariales y registrales.",
+      },
+    ],
+    related: ["tracto-abreviado", "inscripcion-de-bienes-heredados", "heredero-ocupa-inmueble-sucesion"],
+  },
+  {
+    slug: "heredero-ocupa-inmueble-sucesion",
+    eyebrow: "Ocupación del inmueble",
+    title: "Qué ocurre si un heredero ocupa el inmueble de la sucesión",
+    metaTitle: "Heredero ocupa un inmueble de la sucesión",
+    description:
+      "Qué puede hacerse cuando un heredero ocupa en forma exclusiva un inmueble de la sucesión: uso, compensación, gastos, acuerdo y partición.",
+    intro:
+      "La ocupación exclusiva suele mezclar vivienda, administración, gastos y conflicto familiar. Para elegir una medida útil hay que separar esos problemas y precisar desde cuándo se conoce o cuestiona el uso.",
+    answer:
+      "Durante la indivisión, un heredero puede usar el bien en la medida compatible con los derechos de los demás. Si el uso es privativo, el Código Civil y Comercial prevé una indemnización desde que es requerida, salvo acuerdo en contrario; si no hay consenso, el juez puede regular provisionalmente el uso.",
+    sections: [
+      {
+        title: "Uso compatible y uso exclusivo",
+        paragraphs: [
+          "Vivir en el inmueble no convierte a quien lo ocupa en único dueño ni extingue los derechos de los demás herederos. La situación cambia si el uso excluye a los otros, impide administrar el bien o frustra una decisión sobre alquiler, venta o partición.",
+        ],
+      },
+      {
+        title: "Qué conviene documentar",
+        bullets: [
+          "Quién ocupa el inmueble y desde cuándo.",
+          "Si existió autorización, tolerancia o un acuerdo familiar.",
+          "Qué pedidos se formularon y cómo fueron comunicados.",
+          "Impuestos, servicios, reparaciones y mejoras afrontadas.",
+          "Existencia de frutos, alquileres o aprovechamiento económico.",
+        ],
+      },
+      {
+        title: "Compensación, gastos y solución final",
+        paragraphs: [
+          "La eventual compensación por uso, los reintegros por gastos y la distribución final son cuestiones relacionadas pero diferentes. Pueden abordarse mediante un acuerdo documentado o dentro del proceso sucesorio.",
+          "Si la convivencia patrimonial ya no es sostenible, también debe evaluarse la partición, adjudicación o venta del inmueble.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puede desalojarse automáticamente al heredero que ocupa?",
+        answer:
+          "No existe una respuesta automática. Deben analizarse la indivisión hereditaria, el título de la ocupación, los derechos concurrentes y la medida procesal adecuada.",
+      },
+      {
+        question: "¿La compensación por uso nace desde el fallecimiento?",
+        answer:
+          "El artículo 2328 vincula la indemnización por uso privativo con el momento en que es requerida, excepto que exista un pacto diferente. La forma y alcance del reclamo deben revisarse en cada caso.",
+      },
+      {
+        question: "¿Pagar impuestos otorga una porción mayor?",
+        answer:
+          "No por sí solo. Los gastos necesarios o mejoras pueden generar cuestiones de reintegro o recompensa, pero no modifican automáticamente la calidad ni la porción hereditaria.",
+      },
+    ],
+    related: ["conflictos-entre-herederos", "vender-inmueble-en-una-sucesion", "bienes-propios-y-gananciales-en-una-sucesion"],
+  },
+  {
+    slug: "bienes-propios-y-gananciales-en-una-sucesion",
+    eyebrow: "Patrimonio matrimonial",
+    title: "Bienes propios y gananciales en una sucesión",
+    metaTitle: "Bienes propios y gananciales en una sucesión",
+    description:
+      "Cómo distinguir bienes propios y gananciales al tramitar una sucesión y por qué esa clasificación modifica el patrimonio y los derechos del cónyuge.",
+    intro:
+      "Cuando la persona fallecida estaba casada, no alcanza con mirar a nombre de quién figura cada bien. Primero debe determinarse el régimen matrimonial y el carácter propio o ganancial del patrimonio.",
+    answer:
+      "La liquidación del régimen matrimonial y la herencia son operaciones diferentes. Como regla, los bienes anteriores al matrimonio y los recibidos por herencia o donación son propios; los adquiridos onerosamente durante la comunidad suelen ser gananciales, con excepciones, recompensas y exigencias de prueba.",
+    sections: [
+      {
+        title: "Bienes que pueden ser propios",
+        bullets: [
+          "Los que una persona ya tenía al comenzar la comunidad.",
+          "Los recibidos por herencia, legado o donación.",
+          "Los adquiridos mediante reinversión acreditada de bienes propios.",
+          "Los demás supuestos contemplados por el artículo 464 del Código Civil y Comercial.",
+        ],
+      },
+      {
+        title: "Bienes que pueden ser gananciales",
+        paragraphs: [
+          "En el régimen de comunidad, suelen ser gananciales los bienes adquiridos a título oneroso durante su vigencia y los ingresos o frutos comprendidos por la ley. La fecha de adquisición, el origen de los fondos y las constancias del título pueden modificar la respuesta.",
+          "También puede haber recompensas entre la comunidad y los patrimonios propios cuando fondos de una masa beneficiaron a la otra.",
+        ],
+      },
+      {
+        title: "Por qué cambia la distribución",
+        paragraphs: [
+          "Al fallecer uno de los cónyuges, primero debe identificarse qué corresponde por la liquidación de la comunidad y qué integra efectivamente la herencia. Recién después se aplican las reglas sucesorias según concurran descendientes, ascendientes, cónyuge u otros llamados.",
+          "Cuando el cónyuge concurre con descendientes, participa como un hijo respecto del acervo alcanzado por el primer párrafo del artículo 2433, pero no hereda sobre la parte ganancial que correspondía al cónyuge fallecido; conserva, en cambio, los derechos derivados de la liquidación de la comunidad.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Un bien a nombre del fallecido siempre es íntegramente hereditario?",
+        answer:
+          "No. La titularidad registral es un dato importante, pero también deben revisarse el régimen matrimonial, la fecha y causa de adquisición y el origen de los fondos.",
+      },
+      {
+        question: "¿Lo recibido por herencia durante el matrimonio es ganancial?",
+        answer:
+          "Como regla, es propio del cónyuge que lo recibe, sin perjuicio de recompensas si la comunidad afrontó cargas o inversiones que legalmente deban computarse.",
+      },
+      {
+        question: "¿El cónyuge siempre recibe la mitad más una parte hereditaria?",
+        answer:
+          "No puede aplicarse esa fórmula sin conocer los bienes y quiénes concurren. La liquidación de la comunidad y la vocación hereditaria responden a reglas diferentes.",
+      },
+    ],
+    related: ["sucesion-sin-testamento", "declaratoria-de-herederos", "heredero-ocupa-inmueble-sucesion"],
+  },
+  {
+    slug: "sucesion-de-automotores-en-provincia-de-buenos-aires",
+    eyebrow: "Automotores heredados",
+    title: "Sucesión de automotores en la Provincia de Buenos Aires",
+    metaTitle: "Sucesión de automotores en PBA",
+    description:
+      "Cómo inscribir, adjudicar o vender un automotor incluido en una sucesión en Provincia de Buenos Aires y qué documentación debe revisarse.",
+    intro:
+      "Un automotor integra la herencia, pero su situación no se resuelve solamente con denunciarlo en el expediente. La orden judicial debe coordinarse con las exigencias del Registro Seccional correspondiente.",
+    answer:
+      "Según el objetivo, el vehículo puede inscribirse a nombre de los herederos, adjudicarse a una persona o transferirse a un tercero si el expediente y la orden judicial lo permiten. Antes deben revisarse dominio, documentación, deudas, prendas, cautelares y radicación.",
+    sections: [
+      {
+        title: "Información que conviene obtener",
+        bullets: [
+          "Informe de dominio y radicación registral.",
+          "Título, cédula y datos identificatorios del automotor.",
+          "Deudas de patentes e infracciones que deban regularizarse.",
+          "Prendas, embargos, inhibiciones u otras restricciones.",
+          "Estado del vehículo, posesión actual y documentación para circular.",
+        ],
+      },
+      {
+        title: "Inscribir, adjudicar o vender",
+        paragraphs: [
+          "La comunicación judicial debe identificar el automotor y a las personas a cuyo favor se ordena la inscripción, además de incorporar las constancias sucesorias pertinentes. Si existe una partición o adjudicación válida, la inscripción puede ordenarse directamente a favor de su beneficiario.",
+          "Las reglas registrales también contemplan ventas autorizadas y ordenadas dentro del juicio sucesorio a favor de terceros, sin exigir siempre una inscripción previa a nombre de los herederos.",
+        ],
+      },
+      {
+        title: "Uso del vehículo mientras tramita la sucesión",
+        paragraphs: [
+          "Tener físicamente el automotor no equivale a poder transferirlo ni garantiza que la documentación para circular esté vigente. Deben revisarse la cobertura de seguro, la identificación del vehículo y las autorizaciones aplicables antes de utilizarlo.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puede venderse el automotor directamente a un tercero?",
+        answer:
+          "Puede resultar posible cuando la venta es autorizada y ordenada en el juicio sucesorio y se cumplen los recaudos registrales. Debe coordinarse el expediente con el Registro Seccional.",
+      },
+      {
+        question: "¿Qué pasa si se perdió el título o la cédula?",
+        answer:
+          "La normativa registral contempla procedimientos ante el extravío. Es necesario informarlo y cumplir los recaudos que indique el Registro para el trámite concreto.",
+      },
+      {
+        question: "¿Un heredero puede quedarse con el vehículo?",
+        answer:
+          "Puede adjudicarse a uno de los herederos mediante el acuerdo o la partición correspondiente, con la orden judicial y la inscripción registral necesarias.",
+      },
+    ],
+    related: ["inscripcion-de-bienes-heredados", "declaratoria-de-herederos", "bienes-propios-y-gananciales-en-una-sucesion"],
+  },
 ];
 
 export function getSeoPage(slug: string) {
@@ -579,6 +799,30 @@ const feesSource: OfficialSource = {
   name: "Ley 14.967 de la Provincia de Buenos Aires",
   detail: "Régimen de honorarios de abogados y procuradores.",
   url: "https://normas.gba.gob.ar/documentos/BOa6XTk0.html",
+};
+
+const matrimonialPropertySource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 463 a 466 y 2433 a 2435: régimen de comunidad y sucesión del cónyuge.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritanceUseSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2323 a 2329: administración, uso y frutos durante la indivisión hereditaria.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const dnrpaTransferSource: OfficialSource = {
+  name: "Dirección Nacional de los Registros de la Propiedad Automotor",
+  detail: "Guía oficial del trámite de transferencia de dominio, incluida la transmisión por sucesión.",
+  url: "https://www.dnrpa.gov.ar/portal_dnrpa/guia_tramites/transferencia.htm",
+};
+
+const dnrpaDigestoSource: OfficialSource = {
+  name: "Digesto de Normas Técnico-Registrales de la DNRPA",
+  detail: "Normativa vigente para transferencias ordenadas en juicios sucesorios.",
+  url: "https://www.dnrpa.gov.ar/nuevodigesto/",
 };
 
 export const geoContent: Record<string, GeoContent> = {
@@ -716,6 +960,66 @@ export const geoContent: Record<string, GeoContent> = {
       "¿Intervienen terceros, registros o personas que deben ser notificadas?",
     ],
     sources: [proceduralCodeSource, scbaSource, registryLawSource],
+  },
+  "vender-inmueble-en-una-sucesion": {
+    keyPoints: [
+      "La venta debe coordinar legitimación sucesoria, título y situación registral.",
+      "El tracto abreviado puede evitar una inscripción hereditaria intermedia.",
+      "No conviene asumir reservas o plazos antes de revisar el expediente.",
+    ],
+    scenario:
+      "Ejemplo orientativo: tres herederos quieren vender una casa registrada a nombre del causante. Antes de publicarla verifican la declaratoria, el título, las deudas, la ocupación y si la escribanía puede trabajar mediante tracto abreviado.",
+    questions: [
+      "¿Quiénes deben prestar conformidad para la operación?",
+      "¿El expediente ya permite ordenar la transmisión?",
+      "¿Conviene inscribir, adjudicar o utilizar tracto abreviado?",
+    ],
+    sources: [civilCodeSource, registryLawSource, registryManualSource],
+  },
+  "heredero-ocupa-inmueble-sucesion": {
+    keyPoints: [
+      "El uso debe ser compatible con los derechos de los demás copartícipes.",
+      "El uso privativo puede generar una indemnización desde que es requerida.",
+      "Ocupación, reintegro de gastos y partición deben analizarse por separado.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una heredera vive en la casa familiar y afronta algunos gastos, mientras los demás quieren alquilarla. Para ordenar el conflicto se reconstruyen el acuerdo previo, los pagos acreditados, los pedidos realizados y el destino buscado para el inmueble.",
+    questions: [
+      "¿La ocupación fue acordada, tolerada o cuestionada?",
+      "¿Cuándo y de qué manera se requirió modificar el uso?",
+      "¿Qué gastos, frutos o mejoras pueden documentarse?",
+    ],
+    sources: [inheritanceUseSource, civilCodeSource, proceduralCodeSource],
+  },
+  "bienes-propios-y-gananciales-en-una-sucesion": {
+    keyPoints: [
+      "Primero se liquida el régimen matrimonial y después se determina la herencia.",
+      "La fecha, causa de adquisición y origen de los fondos son datos centrales.",
+      "La concurrencia del cónyuge cambia según los bienes y los demás herederos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante deja una vivienda comprada durante el matrimonio y un lote heredado de sus padres. Aunque ambos estén a su nombre, su clasificación y el modo de distribuirlos no se resuelven de la misma manera.",
+    questions: [
+      "¿Qué régimen matrimonial estaba vigente al fallecimiento?",
+      "¿Cuándo y por qué título se adquirió cada bien?",
+      "¿Quiénes concurren como herederos y existen recompensas pendientes?",
+    ],
+    sources: [matrimonialPropertySource, civilCodeSource, proceduralCodeSource],
+  },
+  "sucesion-de-automotores-en-provincia-de-buenos-aires": {
+    keyPoints: [
+      "El expediente judicial y el trámite registral deben coordinarse.",
+      "El informe de dominio permite detectar titularidad y restricciones.",
+      "Puede evaluarse inscripción, adjudicación o transferencia a un tercero.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una sucesión incluye un vehículo que usa uno de los herederos. Antes de decidir su adjudicación o venta se revisan la radicación, el informe de dominio, la deuda de patentes, la cobertura y la documentación disponible.",
+    questions: [
+      "¿Dónde está radicado y a nombre de quién figura el vehículo?",
+      "¿Existen prendas, cautelares, deudas o documentación faltante?",
+      "¿Se busca mantenerlo, adjudicarlo o venderlo?",
+    ],
+    sources: [dnrpaTransferSource, dnrpaDigestoSource, civilCodeSource],
   },
 };
 
