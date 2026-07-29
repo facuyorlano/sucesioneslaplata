@@ -2320,6 +2320,14 @@ a {
   cursor: pointer;
 }
 
+.assistant-submit svg,
+.assistant-option svg {
+  display: block;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+}
+
 .assistant-feedback {
   margin: 1px 0 0;
   color: #9d3e38;
@@ -2402,6 +2410,9 @@ a {
   position: absolute;
   top: 50%;
   right: 15px;
+  display: block;
+  width: 20px;
+  height: 20px;
   transform: translateY(-50%);
 }
 
