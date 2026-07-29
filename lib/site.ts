@@ -1635,6 +1635,659 @@ export const seoPages: SeoPage[] = [
     ],
     related: ["particion-de-bienes-hereditarios", "sucesion-con-testamento", "derechos-del-conyuge-viudo-en-una-sucesion"],
   },
+  {
+    slug: "como-saber-si-una-persona-fallecida-tenia-bienes",
+    eyebrow: "Búsqueda de bienes",
+    title: "Cómo saber si una persona fallecida tenía bienes",
+    metaTitle: "Cómo saber qué bienes tenía una persona fallecida",
+    description:
+      "Cómo reconstruir el patrimonio de una persona fallecida: inmuebles, automotores, cuentas, participaciones y documentación útil para la sucesión.",
+    intro:
+      "No siempre la familia conoce todo el patrimonio de la persona fallecida. La búsqueda debe organizarse por tipos de activos y mediante documentación, informes y pedidos adecuados.",
+    answer:
+      "No existe una única consulta pública que revele automáticamente todos los bienes. El relevamiento suele combinar papeles personales, información fiscal y bancaria disponible, informes registrales y medidas solicitadas dentro del expediente sucesorio.",
+    sections: [
+      {
+        title: "Empezar por los rastros disponibles",
+        paragraphs: [
+          "Escrituras, cédulas, pólizas, resúmenes, recibos de impuestos, contratos y correos pueden indicar la existencia de activos o deudas. Conviene registrar cada dato sin asumir que acredita por sí solo la titularidad.",
+          "También deben distinguirse bienes propios, gananciales, compartidos y derechos cuya transmisión requiere un análisis particular.",
+        ],
+      },
+      {
+        title: "Informes y pedidos específicos",
+        paragraphs: [
+          "Según el dato buscado pueden corresponder informes sobre inmuebles o automotores, oficios a entidades, consultas sobre participaciones societarias o pedidos de información vinculados con el expediente.",
+          "El alcance de cada búsqueda depende de la información mínima disponible y de las reglas de acceso aplicables.",
+        ],
+      },
+      {
+        title: "Datos útiles para organizar el relevamiento",
+        bullets: [
+          "Nombre completo, DNI, CUIT o CUIL y último domicilio.",
+          "Recibos, contratos y documentación registral encontrada.",
+          "Entidades bancarias o plataformas utilizadas.",
+          "Vehículos, inmuebles o actividades económicas conocidas.",
+          "Posibles deudas, garantías y procesos judiciales.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Se puede iniciar la sucesión sin conocer todos los bienes?",
+        answer:
+          "Sí. El patrimonio puede ampliarse a medida que aparece información. Lo importante es no omitir deliberadamente activos conocidos y planificar las búsquedas necesarias.",
+      },
+      {
+        question: "¿Un informe registral demuestra que el bien integra la herencia?",
+        answer:
+          "Aporta información sobre titularidad y estado registral, pero puede ser necesario analizar el título, el régimen matrimonial y otros antecedentes.",
+      },
+      {
+        question: "¿Las cuentas conjuntas pertenecen totalmente a la persona fallecida?",
+        answer:
+          "No necesariamente. La modalidad de la cuenta no resuelve por sí sola la propiedad del dinero; deben revisarse su origen y las circunstancias concretas.",
+      },
+    ],
+    related: ["documentos-para-iniciar-una-sucesion", "cuentas-bancarias-y-plazos-fijos-en-una-sucesion", "sucesion-de-automotores-en-provincia-de-buenos-aires"],
+  },
+  {
+    slug: "como-saber-si-ya-hay-una-sucesion-iniciada",
+    eyebrow: "Sucesión ya iniciada",
+    title: "Cómo saber si ya existe una sucesión iniciada",
+    metaTitle: "Cómo saber si una sucesión ya fue iniciada en PBA",
+    description:
+      "Cómo verificar si ya existe un juicio sucesorio iniciado en la Provincia de Buenos Aires y qué hacer al encontrar un expediente anterior.",
+    intro:
+      "Antes de abrir un nuevo expediente conviene verificar si otra persona ya promovió la sucesión del mismo causante.",
+    answer:
+      "En la Provincia de Buenos Aires los juicios sucesorios se comunican al Registro de Juicios Universales. La consulta profesional permite detectar antecedentes y luego identificar el órgano y expediente para revisar su estado.",
+    sections: [
+      {
+        title: "Qué información permite buscar",
+        paragraphs: [
+          "La individualización correcta del causante es esencial. Coincidencias de nombres o datos incompletos pueden exigir verificaciones adicionales.",
+          "Un resultado informa la existencia de un antecedente, pero para conocer presentaciones, resoluciones y personas intervinientes debe revisarse el expediente correspondiente.",
+        ],
+      },
+      {
+        title: "Qué hacer si aparece un expediente",
+        paragraphs: [
+          "Debe comprobarse si se trata de la misma persona, dónde tramita, quiénes fueron denunciados y qué resoluciones se dictaron. Un heredero que no participó puede evaluar su presentación y la acreditación de su vínculo.",
+        ],
+      },
+      {
+        title: "Información que conviene reunir",
+        bullets: [
+          "Nombre completo y documento de la persona fallecida.",
+          "Fecha de fallecimiento y último domicilio.",
+          "Estado civil, cónyuge y datos de los progenitores.",
+          "Posible departamento judicial o localidad.",
+          "Cualquier número de expediente o comunicación recibida.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puedo iniciar otro expediente si ya existe uno?",
+        answer:
+          "Como regla, no corresponde duplicar la sucesión del mismo causante. Debe ubicarse el expediente existente y analizar cómo presentarse allí.",
+      },
+      {
+        question: "¿Puedo incorporarme si no fui avisado?",
+        answer:
+          "Si acreditás un derecho hereditario, podés evaluar una presentación en el expediente. El alcance depende de su estado y de los actos ya realizados.",
+      },
+      {
+        question: "¿La consulta muestra todo el contenido del juicio?",
+        answer:
+          "No. Permite localizar antecedentes; el contenido y estado procesal se conocen revisando el expediente judicial.",
+      },
+    ],
+    related: ["heredero-omitido-ampliacion-declaratoria", "declaratoria-de-herederos", "heredero-con-domicilio-desconocido"],
+  },
+  {
+    slug: "que-hacer-despues-de-la-declaratoria-de-herederos",
+    eyebrow: "Después de la declaratoria",
+    title: "Qué hacer después de la declaratoria de herederos",
+    metaTitle: "Después de la declaratoria de herederos: qué sigue",
+    description:
+      "Qué pasos pueden seguir después de obtener la declaratoria: bienes, valuación, partición, inscripción, cobro o venta en Provincia de Buenos Aires.",
+    intro:
+      "La declaratoria reconoce a los herederos, pero no siempre concluye el trabajo necesario para resolver el patrimonio.",
+    answer:
+      "El paso siguiente depende del objetivo: denunciar y valuar bienes, pagar cargas, cobrar fondos, acordar una partición, adjudicar, inscribir o preparar una venta. No existe un único recorrido posterior.",
+    sections: [
+      {
+        title: "Definir el resultado buscado",
+        paragraphs: [
+          "Conservar los bienes en común, adjudicarlos, venderlos o cobrar activos exigen decisiones y documentación diferentes. Conviene definir ese resultado antes de generar gastos registrales o asumir compromisos.",
+        ],
+      },
+      {
+        title: "Ordenar el patrimonio",
+        bullets: [
+          "Completar la denuncia de bienes y obtener informes.",
+          "Revisar títulos, valuaciones, deudas y cautelares.",
+          "Determinar si existe acuerdo entre los herederos.",
+          "Resolver administración, ocupación y gastos pendientes.",
+          "Coordinar inscripción, adjudicación o tracto abreviado.",
+        ],
+      },
+      {
+        title: "Declaratoria e inscripción no son lo mismo",
+        paragraphs: [
+          "La declaratoria acredita la calidad de heredero. Los inmuebles, automotores y otros bienes registrables requieren actuaciones e instrumentos posteriores para reflejar la transmisión o una venta.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿La declaratoria pone automáticamente la casa a nombre de los herederos?",
+        answer:
+          "No. Para modificar la situación registral deben cumplirse los pasos judiciales, fiscales, profesionales y registrales correspondientes.",
+      },
+      {
+        question: "¿Hay que inscribir antes de vender?",
+        answer:
+          "No siempre. En ciertos casos puede utilizarse tracto abreviado, pero debe verificarse que el expediente y la operación estén en condiciones.",
+      },
+      {
+        question: "¿Puede dejarse el expediente sin avanzar?",
+        answer:
+          "Puede ocurrir, pero conviene evaluar conservación, deudas, documentación y riesgos. Postergar decisiones no impide que sigan generándose gastos o conflictos.",
+      },
+    ],
+    related: ["declaratoria-de-herederos", "inscripcion-de-bienes-heredados", "particion-de-bienes-hereditarios"],
+  },
+  {
+    slug: "administrador-de-la-sucesion-y-rendicion-de-cuentas",
+    eyebrow: "Administración sucesoria",
+    title: "Administrador de la sucesión y rendición de cuentas",
+    metaTitle: "Administrador de una sucesión y rendición de cuentas",
+    description:
+      "Cómo se designa al administrador de una sucesión, qué puede hacer y cuándo corresponde pedir rendición de cuentas o remoción.",
+    intro:
+      "Cuando el patrimonio requiere cobros, pagos, conservación o decisiones periódicas, puede ser necesario organizar formalmente su administración.",
+    answer:
+      "Los copartícipes pueden designar administrador y, si no hay mayoría, pedir que lo designe el juez. Sus facultades dependen del nombramiento y de la ley; debe informar y rendir cuentas de su gestión.",
+    sections: [
+      {
+        title: "Designación y alcance",
+        paragraphs: [
+          "La preferencia legal no convierte automáticamente a una persona en administradora. Deben revisarse el acuerdo, la resolución y las facultades otorgadas.",
+          "Los actos ordinarios, conservatorios y de disposición no tienen el mismo régimen. Una venta u otro acto extraordinario puede requerir conformidad o autorización específica.",
+        ],
+      },
+      {
+        title: "Documentar la gestión",
+        bullets: [
+          "Ingresos, alquileres y frutos percibidos.",
+          "Impuestos, servicios, reparaciones y honorarios pagados.",
+          "Contratos celebrados y autorizaciones obtenidas.",
+          "Movimientos de fondos con comprobantes.",
+          "Estado de los bienes y medidas de conservación.",
+        ],
+      },
+      {
+        title: "Rendición, garantías y remoción",
+        paragraphs: [
+          "Los interesados pueden controlar la gestión y formular observaciones. El mal desempeño o la imposibilidad de ejercer el cargo pueden fundar un pedido de remoción, sujeto a decisión judicial.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿El heredero que vive en el inmueble es administrador?",
+        answer:
+          "No por ese solo hecho. Ocupación y administración son situaciones diferentes, aunque puedan existir actos concretos de gestión que deban analizarse.",
+      },
+      {
+        question: "¿El administrador puede vender bienes?",
+        answer:
+          "No debe asumirse una facultad general para disponer. La venta requiere revisar el acto, las facultades, el acuerdo y las autorizaciones aplicables.",
+      },
+      {
+        question: "¿Puede cobrar por administrar?",
+        answer:
+          "La ley contempla remuneración y reintegro de gastos necesarios y útiles. Su determinación depende del testamento, el acuerdo o la decisión judicial.",
+      },
+    ],
+    related: ["conflictos-entre-herederos", "heredero-ocupa-inmueble-sucesion", "sucesion-con-deudas"],
+  },
+  {
+    slug: "vender-inmueble-con-herederos-menores",
+    eyebrow: "Venta con menores",
+    title: "Vender un inmueble cuando existen herederos menores",
+    metaTitle: "Vender un inmueble con herederos menores en PBA",
+    description:
+      "Qué controles y autorizaciones requiere la venta de un inmueble sucesorio cuando participan herederos menores de edad.",
+    intro:
+      "La existencia de una persona menor de edad no impide necesariamente vender, pero activa controles destinados a proteger su patrimonio.",
+    answer:
+      "La operación debe tramitarse con representación adecuada, control judicial y justificación de su conveniencia para el menor. También debe definirse cómo se resguardará la parte del precio que le corresponde.",
+    sections: [
+      {
+        title: "Protección reforzada",
+        paragraphs: [
+          "La conformidad de los adultos no sustituye el control judicial. Deben exponerse las condiciones de la venta, la valuación y el beneficio o necesidad de la operación.",
+          "Si existe conflicto de intereses con quien representa al menor, puede requerirse una intervención o representación diferenciada.",
+        ],
+      },
+      {
+        title: "Elementos que suelen revisarse",
+        bullets: [
+          "Título, valuación e informes del inmueble.",
+          "Porción correspondiente a la persona menor.",
+          "Precio, modalidad de pago y gastos de la operación.",
+          "Necesidad o conveniencia concreta de vender.",
+          "Destino y resguardo de los fondos obtenidos.",
+        ],
+      },
+      {
+        title: "Planificar antes de comprometer la venta",
+        paragraphs: [
+          "No conviene firmar reservas ni prometer fechas sin analizar previamente la autorización necesaria. La escribanía, el expediente y las condiciones comerciales deben coordinarse.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Los padres pueden firmar directamente por el menor?",
+        answer:
+          "La representación parental no elimina las autorizaciones y controles exigibles para disponer de bienes del menor.",
+      },
+      {
+        question: "¿El dinero puede entregarse libremente a los adultos?",
+        answer:
+          "La porción del menor debe quedar protegida según lo que autorice el juez y las circunstancias del caso.",
+      },
+      {
+        question: "¿Se puede utilizar tracto abreviado?",
+        answer:
+          "Puede evaluarse si el expediente y la autorización permiten coordinarlo, pero la presencia de un menor exige revisar especialmente cada recaudo.",
+      },
+    ],
+    related: ["sucesion-con-herederos-menores-de-edad", "vender-inmueble-en-una-sucesion", "tracto-abreviado"],
+  },
+  {
+    slug: "inmueble-con-boleto-de-compraventa-sin-escritura-sucesion",
+    eyebrow: "Boleto sin escritura",
+    title: "Inmueble con boleto de compraventa y sin escritura en una sucesión",
+    metaTitle: "Boleto sin escritura dentro de una sucesión",
+    description:
+      "Qué revisar cuando la persona fallecida compró o vendió un inmueble mediante boleto y no llegó a otorgarse la escritura.",
+    intro:
+      "Un boleto pendiente puede representar un derecho o una obligación transmisible, pero no equivale automáticamente al dominio inscripto.",
+    answer:
+      "Debe analizarse quién figura como titular registral, qué obligaciones se cumplieron, si existe posesión, cómo se pagó el precio y qué documentación conserva cada parte. La sucesión puede tener que continuar una escrituración o discutir su procedencia.",
+    sections: [
+      {
+        title: "Si el causante era comprador",
+        paragraphs: [
+          "Los herederos pueden recibir la posición contractual y evaluar el cumplimiento pendiente. El boleto, los pagos, la posesión y la situación registral son elementos centrales.",
+        ],
+      },
+      {
+        title: "Si el causante era vendedor",
+        paragraphs: [
+          "Debe verificarse si recibió el precio, entregó la posesión y asumió una obligación de escriturar. No corresponde tratar el inmueble como libre sin revisar el contrato y su ejecución.",
+        ],
+      },
+      {
+        title: "Documentación decisiva",
+        bullets: [
+          "Boleto original, anexos y cesiones.",
+          "Recibos, transferencias y constancias de pago.",
+          "Informe de dominio y antecedentes registrales.",
+          "Prueba de posesión, impuestos y servicios.",
+          "Intimaciones, poderes y trámites de escrituración.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿El boleto convierte al comprador en dueño registral?",
+        answer:
+          "No. El boleto produce derechos y obligaciones, pero el dominio inmobiliario requiere el título y la inscripción correspondientes.",
+      },
+      {
+        question: "¿Puede escriturarse después del fallecimiento?",
+        answer:
+          "Puede existir una vía para completar la operación, según el contrato, su cumplimiento, la documentación y la participación de las partes necesarias.",
+      },
+      {
+        question: "¿Alcanza con tener la posesión?",
+        answer:
+          "La posesión es relevante, pero no reemplaza automáticamente el análisis contractual, registral ni las posibles acciones aplicables.",
+      },
+    ],
+    related: ["documentos-para-iniciar-una-sucesion", "inscripcion-de-bienes-heredados", "vender-inmueble-en-una-sucesion"],
+  },
+  {
+    slug: "sucesiones-encadenadas-fallece-un-heredero",
+    eyebrow: "Sucesiones encadenadas",
+    title: "Sucesiones encadenadas: qué ocurre si fallece un heredero",
+    metaTitle: "Sucesiones encadenadas: fallece un heredero",
+    description:
+      "Qué ocurre cuando una persona llamada a heredar fallece antes de aceptar, durante el expediente o después de la declaratoria.",
+    intro:
+      "Cuando fallecen dos integrantes de una familia en momentos sucesivos, puede ser necesario coordinar más de un proceso y reconstruir qué derecho ingresó en cada patrimonio.",
+    answer:
+      "La solución depende del orden de los fallecimientos y de si el heredero aceptó, renunció o murió sin ejercer esa opción. En este último supuesto, el derecho de aceptar o renunciar puede transmitirse a sus propios herederos.",
+    sections: [
+      {
+        title: "La cronología define el análisis",
+        paragraphs: [
+          "No es lo mismo que una persona haya fallecido antes que el causante, después de la apertura de la sucesión o luego de aceptar y ser reconocida. Las partidas y fechas deben ordenarse con precisión.",
+        ],
+      },
+      {
+        title: "Coordinación de expedientes",
+        paragraphs: [
+          "Pueden existir dos o más sucesiones vinculadas. Cada una conserva su causante, herederos y patrimonio, aunque una participación hereditaria pase a integrar la siguiente.",
+        ],
+      },
+      {
+        title: "Información necesaria",
+        bullets: [
+          "Partidas de defunción y documentación de vínculos.",
+          "Orden cronológico de los fallecimientos.",
+          "Actos de aceptación, renuncia o disposición.",
+          "Declaratorias y expedientes ya existentes.",
+          "Bienes o porcentajes involucrados en cada sucesión.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Se hace una sola sucesión para toda la familia?",
+        answer:
+          "No necesariamente. Cada persona fallecida origina su propia transmisión, aunque los expedientes puedan estar relacionados y deban coordinarse.",
+      },
+      {
+        question: "¿Los nietos siempre representan al heredero fallecido?",
+        answer:
+          "La representación tiene supuestos específicos. Si el heredero sobrevivió al causante, puede operar una transmisión distinta hacia su propia sucesión.",
+      },
+      {
+        question: "¿Importa si el heredero ya había aceptado?",
+        answer:
+          "Sí. La aceptación, renuncia o falta de opción influye en qué derecho se transmite y cómo debe presentarse en los expedientes.",
+      },
+    ],
+    related: ["derecho-de-representacion-heredan-los-nietos", "como-saber-si-ya-hay-una-sucesion-iniciada", "declaratoria-de-herederos"],
+  },
+  {
+    slug: "conyuge-separado-de-hecho-o-divorciado-hereda",
+    eyebrow: "Cónyuge separado o divorciado",
+    title: "¿Hereda el cónyuge separado de hecho o divorciado?",
+    metaTitle: "¿Hereda el cónyuge separado de hecho o divorciado?",
+    description:
+      "Cómo inciden el divorcio, la separación de hecho y el cese judicial de convivencia en los derechos hereditarios entre cónyuges.",
+    intro:
+      "Estar formalmente casados al momento del fallecimiento no siempre significa conservar vocación hereditaria.",
+    answer:
+      "El divorcio excluye el derecho hereditario entre cónyuges. También lo hace la separación de hecho sin voluntad de unirse y una decisión judicial que implique cese de la convivencia. Los hechos y su prueba pueden ser decisivos.",
+    sections: [
+      {
+        title: "Separación de hecho",
+        paragraphs: [
+          "Debe analizarse si existió una ruptura efectiva y sin voluntad de recomponer la convivencia. La sola existencia de domicilios distintos o una ausencia temporal no debería evaluarse aisladamente.",
+        ],
+      },
+      {
+        title: "Divorcio y decisiones judiciales",
+        paragraphs: [
+          "Una sentencia de divorcio excluye la vocación hereditaria. También puede hacerlo otra decisión judicial que implique cese de la convivencia, según las circunstancias previstas por la ley.",
+        ],
+      },
+      {
+        title: "Prueba que puede resultar relevante",
+        bullets: [
+          "Sentencias y expedientes de familia.",
+          "Domicilios reales y duración de la separación.",
+          "Acuerdos, comunicaciones y organización económica.",
+          "Fecha y circunstancias del cese de convivencia.",
+          "Existencia de una reconciliación o proyecto de reunirse.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Separarse de hecho equivale automáticamente a divorciarse?",
+        answer:
+          "No. Son situaciones jurídicas diferentes, aunque la separación sin voluntad de unirse puede excluir el derecho hereditario.",
+      },
+      {
+        question: "¿Alcanza con que el DNI tenga otro domicilio?",
+        answer:
+          "Es un elemento posible, pero no necesariamente concluyente. La situación debe reconstruirse mediante el conjunto de hechos y pruebas.",
+      },
+      {
+        question: "¿La exclusión modifica también los bienes gananciales?",
+        answer:
+          "Vocación hereditaria y liquidación patrimonial son cuestiones distintas. Debe analizarse cuándo se disolvió la comunidad y qué derechos corresponden por cada concepto.",
+      },
+    ],
+    related: ["derechos-del-conyuge-viudo-en-una-sucesion", "bienes-propios-y-gananciales-en-una-sucesion", "conviviente-hereda-en-argentina"],
+  },
+  {
+    slug: "derecho-de-representacion-heredan-los-nietos",
+    eyebrow: "Derecho de representación",
+    title: "Derecho de representación: cuándo heredan los nietos",
+    metaTitle: "Cuándo heredan los nietos por representación",
+    description:
+      "Cuándo los nietos pueden ocupar el lugar de su progenitor en una herencia y cómo se divide la sucesión por ramas.",
+    intro:
+      "Los nietos no desplazan normalmente a un hijo vivo del causante, pero pueden heredar por representación en situaciones previstas por la ley.",
+    answer:
+      "Los descendientes más lejanos representan a su ascendiente cuando éste murió antes que el causante, renunció o fue declarado indigno. La división se realiza por estirpes y luego por cabeza dentro de cada rama.",
+    sections: [
+      {
+        title: "División por estirpes",
+        paragraphs: [
+          "Primero se reconstruye la porción que habría correspondido a la persona representada. Esa porción se subdivide entre sus descendientes conforme a las reglas legales.",
+        ],
+      },
+      {
+        title: "Casos que habilitan la representación",
+        bullets: [
+          "Premoriencia del hijo o descendiente del causante.",
+          "Renuncia a la herencia del causante.",
+          "Indignidad para suceder.",
+          "Representación de descendientes sin límite de grado.",
+          "Representación de descendientes de hermanos dentro de sus límites.",
+        ],
+      },
+      {
+        title: "No confundir con transmisión",
+        paragraphs: [
+          "Si el hijo sobrevivió al causante y luego falleció, el análisis puede corresponder a su propia sucesión y no a una representación. La cronología es determinante.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Los nietos heredan si su padre o madre está vivo?",
+        answer:
+          "Como regla, no lo representan mientras conserve su llamamiento. Deben analizarse renuncia, indignidad u otras circunstancias previstas por la ley.",
+      },
+      {
+        question: "¿Todos los nietos reciben lo mismo?",
+        answer:
+          "No necesariamente. Si concurren por distintas ramas, primero se divide por estirpes y luego dentro de cada rama.",
+      },
+      {
+        question: "¿La renuncia del padre permite representar?",
+        answer:
+          "La ley contempla la representación en caso de renuncia a la herencia del causante.",
+      },
+    ],
+    related: ["sucesiones-encadenadas-fallece-un-heredero", "sucesion-sin-hijos-quienes-heredan", "herencia-entre-hermanos-y-sobrinos"],
+  },
+  {
+    slug: "impugnacion-y-nulidad-de-testamento",
+    eyebrow: "Nulidad de testamento",
+    title: "Impugnación y nulidad de un testamento",
+    metaTitle: "Impugnación y nulidad de testamento: cuándo procede",
+    description:
+      "Cuándo puede cuestionarse un testamento por defectos de forma, falta de razón, incapacidad, error, dolo, violencia u otras causas legales.",
+    intro:
+      "El desacuerdo con el contenido de un testamento no basta para invalidarlo. La impugnación exige una causa jurídica y prueba vinculada con el momento del otorgamiento.",
+    answer:
+      "La ley prevé nulidad, entre otros supuestos, por prohibiciones legales, defectos formales, falta de razón, incapacidad en determinadas condiciones, error, dolo o violencia. También puede cuestionarse una disposición particular sin invalidar necesariamente todo el testamento.",
+    sections: [
+      {
+        title: "Causa y prueba",
+        paragraphs: [
+          "Debe individualizarse qué defecto se invoca y qué evidencia lo sostiene. En casos de falta de razón interesa especialmente el estado de la persona al momento exacto de testar.",
+        ],
+      },
+      {
+        title: "Nulidad total o parcial",
+        paragraphs: [
+          "Algunos defectos pueden afectar el instrumento completo y otros una cláusula específica. La interpretación procura reconstruir la voluntad real dentro de los límites legales.",
+        ],
+      },
+      {
+        title: "Elementos que conviene conservar",
+        bullets: [
+          "Original o testimonio del testamento.",
+          "Historia clínica y constancias cercanas a su fecha.",
+          "Datos de escribanía, testigos e intervinientes.",
+          "Comunicaciones y versiones anteriores o posteriores.",
+          "Prueba de presiones, engaño o limitaciones comunicacionales.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Un diagnóstico médico vuelve nulo el testamento?",
+        answer:
+          "No automáticamente. Debe relacionarse con la aptitud y el estado de la persona en el momento de otorgar el acto.",
+      },
+      {
+        question: "¿Puede impugnarse sólo una cláusula?",
+        answer:
+          "Sí, según la causa. La nulidad de una disposición no siempre arrastra el resto del testamento.",
+      },
+      {
+        question: "¿Aceptar lo dispuesto impide cuestionarlo después?",
+        answer:
+          "La ley limita la acción de quien, conociendo el testamento, ratificó sus disposiciones o las cumplió espontáneamente. Debe revisarse la conducta concreta.",
+      },
+    ],
+    related: ["sucesion-con-testamento", "legitima-hereditaria-y-accion-de-reduccion", "donaciones-en-vida-y-colacion-hereditaria"],
+  },
+  {
+    slug: "legitima-hereditaria-y-accion-de-reduccion",
+    eyebrow: "Legítima hereditaria",
+    title: "Legítima hereditaria y acción de reducción",
+    metaTitle: "Legítima hereditaria y acción de reducción",
+    description:
+      "Qué parte de la herencia protege la ley para descendientes, ascendientes y cónyuge, y cuándo puede corresponder una acción de reducción.",
+    intro:
+      "La libertad para testar o donar tiene límites cuando existen herederos legitimarios.",
+    answer:
+      "Los descendientes, ascendientes y el cónyuge tienen una porción legítima protegida. Si disposiciones testamentarias o donaciones computables la afectan, pueden corresponder acciones para completar o reducir liberalidades, según el caso.",
+    sections: [
+      {
+        title: "Quiénes tienen legítima",
+        paragraphs: [
+          "La ley protege a descendientes, ascendientes y cónyuge. La porción disponible cambia según quiénes concurren y debe calcularse sobre una masa que considera el valor líquido de la herencia y determinadas donaciones.",
+        ],
+      },
+      {
+        title: "Cálculo antes de reclamar",
+        bullets: [
+          "Identificar todos los legitimarios.",
+          "Determinar activo, deudas y cargas.",
+          "Relevar testamentos, legados y donaciones.",
+          "Clasificar bienes y fechas relevantes.",
+          "Valuar conforme a las reglas aplicables.",
+        ],
+      },
+      {
+        title: "Colación y reducción",
+        paragraphs: [
+          "La colación procura igualdad entre determinados coherederos mediante el cómputo de valores. La reducción protege la legítima frente a liberalidades que exceden la porción disponible. No son acciones equivalentes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Se puede dejar a un hijo sin herencia mediante testamento?",
+        answer:
+          "No puede privárselo libremente de su legítima. Deben distinguirse las causas legales de indignidad y los límites de la disposición testamentaria.",
+      },
+      {
+        question: "¿Toda donación puede reducirse?",
+        answer:
+          "No. Deben calcularse la masa, la porción disponible, las fechas y las reglas aplicables a cada liberalidad.",
+      },
+      {
+        question: "¿Los hermanos tienen legítima?",
+        answer:
+          "No. Pueden ser herederos intestados en ausencia de órdenes preferentes, pero no son legitimarios protegidos por una porción indisponible.",
+      },
+    ],
+    related: ["donaciones-en-vida-y-colacion-hereditaria", "sucesion-con-testamento", "particion-de-bienes-hereditarios"],
+  },
+  {
+    slug: "gastos-impuestos-y-reparaciones-pagados-por-un-heredero",
+    eyebrow: "Gastos entre herederos",
+    title: "Gastos, impuestos y reparaciones pagados por un heredero",
+    metaTitle: "Gastos de la sucesión pagados por un heredero",
+    description:
+      "Cuándo puede reclamarse el reintegro de impuestos, servicios, reparaciones y gastos de conservación afrontados por un solo heredero.",
+    intro:
+      "Es frecuente que una sola persona pague gastos mientras el patrimonio permanece indiviso. No todos los desembolsos reciben el mismo tratamiento.",
+    answer:
+      "Los gastos necesarios para conservar bienes comunes pueden generar una contribución proporcional de los coherederos. Deben distinguirse de consumos personales, mejoras no acordadas, gastos de uso exclusivo y obligaciones propias.",
+    sections: [
+      {
+        title: "Clasificar cada pago",
+        paragraphs: [
+          "Impuestos que gravan el bien, reparaciones urgentes, servicios consumidos y mejoras voluntarias cumplen funciones distintas. La utilidad del gasto y el beneficio para la masa deben acreditarse.",
+        ],
+      },
+      {
+        title: "Prueba y comunicación",
+        bullets: [
+          "Facturas, recibos y comprobantes bancarios.",
+          "Período, concepto y bien al que corresponde el pago.",
+          "Fotografías e informes sobre reparaciones urgentes.",
+          "Avisos o pedidos de contribución a los demás herederos.",
+          "Relación entre el gasto, la ocupación y los frutos percibidos.",
+        ],
+      },
+      {
+        title: "Compensaciones al ordenar las cuentas",
+        paragraphs: [
+          "Los reintegros pueden discutirse junto con alquileres, frutos, uso privativo o partición. No conviene descontar unilateralmente sumas sin documentar y liquidar los conceptos.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puedo reclamar todo lo que pagué?",
+        answer:
+          "No necesariamente. Deben analizarse necesidad, utilidad, proporción, prueba y si el gasto estuvo vinculado con un uso personal.",
+      },
+      {
+        question: "¿Los servicios de quien vive en la casa se reparten?",
+        answer:
+          "Los consumos derivados del uso exclusivo pueden recibir un tratamiento distinto de impuestos o gastos necesarios de conservación.",
+      },
+      {
+        question: "¿Puedo hacer mejoras sin consultar?",
+        answer:
+          "Las mejoras no urgentes pueden generar controversias si no hubo acuerdo. Conviene obtener conformidad y documentar previamente su necesidad y costo.",
+      },
+    ],
+    related: ["heredero-ocupa-inmueble-sucesion", "administrador-de-la-sucesion-y-rendicion-de-cuentas", "particion-de-bienes-hereditarios"],
+  },
 ];
 
 export const guideCategories = [
@@ -1651,6 +2304,9 @@ export const guideCategories = [
       "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires",
       "renunciar-a-una-herencia",
       "cesion-de-derechos-hereditarios",
+      "como-saber-si-ya-hay-una-sucesion-iniciada",
+      "que-hacer-despues-de-la-declaratoria-de-herederos",
+      "sucesiones-encadenadas-fallece-un-heredero",
     ],
   },
   {
@@ -1666,6 +2322,8 @@ export const guideCategories = [
       "heredero-omitido-ampliacion-declaratoria",
       "heredero-con-domicilio-desconocido",
       "sucesion-con-herederos-en-el-extranjero",
+      "conyuge-separado-de-hecho-o-divorciado-hereda",
+      "derecho-de-representacion-heredan-los-nietos",
     ],
   },
   {
@@ -1681,6 +2339,9 @@ export const guideCategories = [
       "vender-inmueble-en-una-sucesion",
       "sucesion-de-automotores-en-provincia-de-buenos-aires",
       "cuentas-bancarias-y-plazos-fijos-en-una-sucesion",
+      "como-saber-si-una-persona-fallecida-tenia-bienes",
+      "vender-inmueble-con-herederos-menores",
+      "inmueble-con-boleto-de-compraventa-sin-escritura-sucesion",
     ],
   },
   {
@@ -1693,6 +2354,10 @@ export const guideCategories = [
       "heredero-ocupa-inmueble-sucesion",
       "sucesion-con-deudas",
       "sucesion-con-bienes-en-otras-provincias-o-exterior",
+      "administrador-de-la-sucesion-y-rendicion-de-cuentas",
+      "impugnacion-y-nulidad-de-testamento",
+      "legitima-hereditaria-y-accion-de-reduccion",
+      "gastos-impuestos-y-reparaciones-pagados-por-un-heredero",
     ],
   },
 ] as const;
@@ -1836,6 +2501,78 @@ const inheritancePetitionSource: OfficialSource = {
 const inheritanceCollationSource: OfficialSource = {
   name: "Código Civil y Comercial de la Nación",
   detail: "Artículos 2385 a 2396 y 2444 a 2459: colación, legítima y reducción.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const universalProceedingsRegistrySource: OfficialSource = {
+  name: "Registro de Juicios Universales de la Provincia de Buenos Aires",
+  detail: "Consulta oficial de antecedentes de sucesiones y otros procesos universales.",
+  url: "https://rju.scba.gov.ar/",
+};
+
+const universalProceedingsLawSource: OfficialSource = {
+  name: "Ley bonaerense 7.205",
+  detail: "Creación y funcionamiento del Registro Público de Juicios Universales.",
+  url: "https://normas.gba.gob.ar/documentos/xb3XWfGB.html",
+};
+
+const successionInventorySource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2341 a 2344: inventario, denuncia de bienes, avalúo e impugnaciones.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const judicialAdministratorSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2345 a 2362: designación, facultades, deberes y rendición del administrador judicial.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const minorPartitionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Protección patrimonial de personas menores y artículo 2371 sobre partición judicial.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const purchaseAgreementSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Forma de los contratos y artículos 1170 y 1171 sobre boletos de compraventa de inmuebles.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const transmittedOptionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2288 a 2294, especialmente transmisión del derecho de aceptar o renunciar.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const spouseExclusionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículo 2437: divorcio, separación de hecho y cese judicial de la convivencia.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const representationSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2427 a 2429 y 2439: derecho de representación en la sucesión intestada.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const testamentValiditySource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2462 a 2471: reglas, nulidad, acción e interpretación del testamento.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const forcedHeirshipSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2444 a 2461: porciones legítimas y acciones de protección.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const conservationExpensesSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2323 a 2329: conservación, administración, uso, frutos y pérdidas durante la indivisión.",
   url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
 };
 
@@ -2274,6 +3011,186 @@ export const geoContent: Record<string, GeoContent> = {
       "¿Qué legitimarios y otras donaciones deben computarse?",
     ],
     sources: [inheritanceCollationSource, inheritancePartitionSource, civilCodeSource],
+  },
+  "como-saber-si-una-persona-fallecida-tenia-bienes": {
+    keyPoints: [
+      "No existe una única consulta pública que concentre todo el patrimonio.",
+      "La búsqueda debe organizarse por clase de activo y dato disponible.",
+      "Titularidad registral, carácter matrimonial y pertenencia a la herencia son análisis relacionados pero distintos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: la familia encuentra recibos de patente, un resumen bancario y referencias a un lote. Con esos datos organiza informes y pedidos específicos sin asumir todavía el alcance del patrimonio.",
+    questions: [
+      "¿Qué documentos, correos o comprobantes dejó la persona fallecida?",
+      "¿Qué inmuebles, vehículos, entidades o actividades se conocen?",
+      "¿Qué información debe obtenerse mediante el expediente?",
+    ],
+    sources: [successionInventorySource, proceduralCodeSource, registryLawSource, dnrpaDigestoSource],
+  },
+  "como-saber-si-ya-hay-una-sucesion-iniciada": {
+    keyPoints: [
+      "Los juicios sucesorios bonaerenses se comunican al Registro de Juicios Universales.",
+      "La consulta permite localizar antecedentes, no reemplaza la revisión del expediente.",
+      "Si ya existe un proceso, corresponde analizar la presentación dentro de él.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una hija recibe noticias de que un familiar inició el trámite. Con los datos del causante se localiza el antecedente y luego se revisa el expediente para saber si fue denunciada.",
+    questions: [
+      "¿Cuáles son los datos completos del causante?",
+      "¿En qué departamento judicial podría tramitar?",
+      "¿Existe alguna resolución o inscripción ya realizada?",
+    ],
+    sources: [universalProceedingsRegistrySource, universalProceedingsLawSource, proceduralCodeSource],
+  },
+  "que-hacer-despues-de-la-declaratoria-de-herederos": {
+    keyPoints: [
+      "La declaratoria reconoce herederos, pero no inscribe automáticamente los bienes.",
+      "El recorrido posterior depende del activo y del objetivo de la familia.",
+      "Partición, adjudicación, inscripción y venta cumplen funciones diferentes.",
+    ],
+    scenario:
+      "Ejemplo orientativo: obtenida la declaratoria, los herederos deciden vender un inmueble y conservar un vehículo. Cada bien requiere una estrategia registral y documental propia.",
+    questions: [
+      "¿Qué bienes falta denunciar o valuar?",
+      "¿Se busca conservar, adjudicar, cobrar o vender?",
+      "¿Hay acuerdo, deudas u observaciones registrales?",
+    ],
+    sources: [civilCodeSource, successionInventorySource, inheritancePartitionSource, registryLawSource],
+  },
+  "administrador-de-la-sucesion-y-rendicion-de-cuentas": {
+    keyPoints: [
+      "La designación puede surgir del acuerdo, del testamento o de una decisión judicial.",
+      "Las facultades ordinarias no autorizan automáticamente actos de disposición.",
+      "La gestión debe documentarse y quedar sujeta a rendición de cuentas.",
+    ],
+    scenario:
+      "Ejemplo orientativo: un heredero cobra alquileres y paga gastos del patrimonio. Al formalizar la administración, debe ordenar comprobantes, ingresos, contratos y saldos.",
+    questions: [
+      "¿Quién fue designado y con qué facultades?",
+      "¿Qué ingresos, pagos y contratos administró?",
+      "¿Existen observaciones, perjuicios o necesidad de remoción?",
+    ],
+    sources: [judicialAdministratorSource, inheritanceAdministrationSource, proceduralCodeSource],
+  },
+  "vender-inmueble-con-herederos-menores": {
+    keyPoints: [
+      "La venta requiere protección patrimonial y control judicial reforzado.",
+      "Debe justificarse la conveniencia y el precio de la operación.",
+      "La porción del menor y el destino de sus fondos deben quedar resguardados.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una madre y su hijo menor heredan una casa difícil de mantener. Antes de aceptar una oferta se prepara valuación, destino de fondos y pedido de autorización.",
+    questions: [
+      "¿Quién representa al menor y existe conflicto de intereses?",
+      "¿Cuál es la valuación y por qué conviene vender?",
+      "¿Cómo se protegerá la parte del precio correspondiente al menor?",
+    ],
+    sources: [minorPartitionSource, minorsProtectionSource, proceduralCodeSource, registryLawSource],
+  },
+  "inmueble-con-boleto-de-compraventa-sin-escritura-sucesion": {
+    keyPoints: [
+      "El boleto no equivale al dominio inscripto.",
+      "La posición contractual puede comprender derechos y obligaciones transmisibles.",
+      "Pagos, posesión y estado registral deben reconstruirse conjuntamente.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante pagó el precio y recibió la posesión, pero la escritura nunca se otorgó. Sus herederos reúnen el boleto, recibos e informe de dominio para definir cómo continuar.",
+    questions: [
+      "¿El causante era comprador o vendedor?",
+      "¿Qué parte del contrato fue cumplida?",
+      "¿Quién posee el inmueble y quién figura como titular?",
+    ],
+    sources: [purchaseAgreementSource, civilCodeSource, proceduralCodeSource, registryLawSource],
+  },
+  "sucesiones-encadenadas-fallece-un-heredero": {
+    keyPoints: [
+      "El orden de los fallecimientos define la transmisión aplicable.",
+      "Puede transmitirse el derecho de aceptar o renunciar una herencia.",
+      "Cada causante origina su propio patrimonio y proceso, aunque estén vinculados.",
+    ],
+    scenario:
+      "Ejemplo orientativo: un hijo sobrevive a su madre y fallece meses después sin presentarse en la sucesión. Sus herederos deben coordinar ambos procesos y ejercer la opción transmitida.",
+    questions: [
+      "¿En qué orden ocurrieron los fallecimientos?",
+      "¿Hubo aceptación, renuncia o actos sobre bienes?",
+      "¿Qué expedientes y declaratorias existen?",
+    ],
+    sources: [transmittedOptionSource, civilCodeSource, proceduralCodeSource],
+  },
+  "conyuge-separado-de-hecho-o-divorciado-hereda": {
+    keyPoints: [
+      "El divorcio excluye la vocación hereditaria entre cónyuges.",
+      "También puede excluirla la separación de hecho sin voluntad de unirse.",
+      "La liquidación matrimonial debe diferenciarse del derecho hereditario.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una pareja llevaba años viviendo separada, pero nunca se divorció. Para determinar la vocación hereditaria se reconstruyen la ruptura, su permanencia y la ausencia o existencia de voluntad de reunirse.",
+    questions: [
+      "¿Existió divorcio o alguna decisión judicial previa?",
+      "¿Cuándo y en qué condiciones cesó la convivencia?",
+      "¿Qué prueba existe sobre la voluntad de no reunirse?",
+    ],
+    sources: [spouseExclusionSource, spouseSuccessionSource, matrimonialPropertySource],
+  },
+  "derecho-de-representacion-heredan-los-nietos": {
+    keyPoints: [
+      "Los demás descendientes heredan por representación sin limitación de grado.",
+      "La división se realiza por estirpes y luego por cabeza dentro de la rama.",
+      "Premoriencia, renuncia e indignidad son supuestos legalmente previstos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante tuvo dos hijos, uno vivo y otro fallecido antes dejando dos hijos. La herencia se divide primero en dos ramas y luego se subdivide la rama representada.",
+    questions: [
+      "¿Quiénes sobrevivieron al causante?",
+      "¿Existe renuncia o indignidad de alguna persona llamada?",
+      "¿Qué descendientes integran cada rama?",
+    ],
+    sources: [representationSource, intestateOrderSource, civilCodeSource],
+  },
+  "impugnacion-y-nulidad-de-testamento": {
+    keyPoints: [
+      "El desacuerdo con el resultado no constituye por sí solo una causa de nulidad.",
+      "La impugnación exige identificar un defecto legal y probarlo.",
+      "Puede cuestionarse el testamento completo o una disposición particular.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una familia cuestiona un testamento otorgado durante una enfermedad. Se analiza la aptitud al momento del acto, la forma empleada y la prueba médica y notarial disponible.",
+    questions: [
+      "¿Qué causa concreta de nulidad se invoca?",
+      "¿Qué prueba corresponde al momento del otorgamiento?",
+      "¿Se cumplió o ratificó voluntariamente alguna disposición?",
+    ],
+    sources: [testamentValiditySource, civilCodeSource, proceduralCodeSource],
+  },
+  "legitima-hereditaria-y-accion-de-reduccion": {
+    keyPoints: [
+      "Descendientes, ascendientes y cónyuge son legitimarios.",
+      "La porción disponible depende de quiénes concurren.",
+      "La reducción requiere calcular patrimonio, deudas, testamento y donaciones computables.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante donó el principal inmueble y dejó un testamento. Antes de reclamar, los legitimarios reconstruyen la masa de cálculo y el alcance de cada liberalidad.",
+    questions: [
+      "¿Quiénes son los legitimarios?",
+      "¿Qué activo, pasivo, donaciones y legados existen?",
+      "¿Qué porción disponible resulta aplicable?",
+    ],
+    sources: [forcedHeirshipSource, inheritanceCollationSource, civilCodeSource],
+  },
+  "gastos-impuestos-y-reparaciones-pagados-por-un-heredero": {
+    keyPoints: [
+      "Los gastos necesarios de conservación pueden generar contribución proporcional.",
+      "Consumos personales, mejoras y gastos comunes deben diferenciarse.",
+      "El reintegro depende de su prueba, utilidad y relación con el uso del bien.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una heredera pagó impuestos y reparó una filtración mientras ocupaba la casa. Al liquidar cuentas se separan conservación, consumos, mejoras y eventual uso privativo.",
+    questions: [
+      "¿Qué concepto, período y bien corresponde a cada pago?",
+      "¿El gasto fue necesario, útil, urgente o personal?",
+      "¿Cómo se relaciona con la ocupación y los frutos percibidos?",
+    ],
+    sources: [conservationExpensesSource, inheritanceUseSource, proceduralCodeSource],
   },
 };
 
