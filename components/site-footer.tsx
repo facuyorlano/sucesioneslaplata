@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SITE, seoPages, whatsappUrl } from "@/lib/site";
+import { SITE, whatsappUrl } from "@/lib/site";
 
 export function SiteFooter() {
   return (
@@ -11,15 +11,17 @@ export function SiteFooter() {
         </div>
         <div>
           <h2>Trámites</h2>
-          {seoPages.slice(0, 5).map((page) => (
-            <Link href={`/${page.slug}`} key={page.slug}>{page.eyebrow}</Link>
-          ))}
+          <Link href="/declaratoria-de-herederos">Declaratoria de herederos</Link>
+          <Link href="/sucesion-sin-testamento">Sucesión sin testamento</Link>
+          <Link href="/particion-de-bienes-hereditarios">Partición hereditaria</Link>
+          <Link href="/inscripcion-de-bienes-heredados">Inscripción de bienes</Link>
         </div>
         <div>
-          <h2>Guías</h2>
-          {seoPages.slice(5).map((page) => (
-            <Link href={`/${page.slug}`} key={page.slug}>{page.eyebrow}</Link>
-          ))}
+          <h2>Información</h2>
+          <Link href="/guias-de-sucesiones">Todas las guías</Link>
+          <Link href="/guias-de-sucesiones#quienes-heredan">Quiénes heredan</Link>
+          <Link href="/guias-de-sucesiones#bienes">Bienes y partición</Link>
+          <Link href="/guias-de-sucesiones#conflictos">Conflictos sucesorios</Link>
         </div>
         <div>
           <h2>Contacto</h2>
