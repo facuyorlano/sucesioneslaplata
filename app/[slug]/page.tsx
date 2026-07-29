@@ -59,7 +59,13 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Inicio", item: SITE.url },
-          { "@type": "ListItem", position: 2, name: page.eyebrow, item: `${SITE.url}/${page.slug}` },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Guías de sucesiones",
+            item: `${SITE.url}/guias-de-sucesiones`,
+          },
+          { "@type": "ListItem", position: 3, name: page.eyebrow, item: `${SITE.url}/${page.slug}` },
         ],
       },
       {
@@ -82,7 +88,9 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
           <header className="article-hero">
             <div className="article-hero-inner">
               <nav className="breadcrumbs" aria-label="Migas de pan">
-                <Link href="/">Inicio</Link><span>/</span><span>{page.eyebrow}</span>
+                <Link href="/">Inicio</Link><span>/</span>
+                <Link href="/guias-de-sucesiones">Guías</Link><span>/</span>
+                <span>{page.eyebrow}</span>
               </nav>
               <p className="eyebrow">{page.eyebrow} · Provincia de Buenos Aires</p>
               <h1>{page.title}</h1>
@@ -184,6 +192,7 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
         <section className="related-section section">
           <div className="section-heading">
             <div><p className="section-kicker">También puede interesarte</p><h2>Seguir entendiendo el proceso</h2></div>
+            <p><Link className="text-link" href="/guias-de-sucesiones">Explorar todas las guías <ArrowIcon /></Link></p>
           </div>
           <div className="related-grid">
             {related.map((item) => item && (
