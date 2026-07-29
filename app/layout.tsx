@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SITE } from "@/lib/site";
+import { SuccessionAssistant } from "@/components/succession-assistant";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -64,7 +65,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es-AR">
-      <body>{children}</body>
+      <body>
+        {children}
+        <SuccessionAssistant />
+      </body>
     </html>
   );
 }
