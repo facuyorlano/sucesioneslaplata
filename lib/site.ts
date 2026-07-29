@@ -759,6 +759,445 @@ export const seoPages: SeoPage[] = [
     ],
     related: ["inscripcion-de-bienes-heredados", "declaratoria-de-herederos", "bienes-propios-y-gananciales-en-una-sucesion"],
   },
+  {
+    slug: "heredero-no-quiere-firmar-sucesion",
+    eyebrow: "Falta de acuerdo",
+    title: "Qué hacer si un heredero no quiere firmar la sucesión",
+    metaTitle: "Heredero no quiere firmar la sucesión",
+    description:
+      "Qué puede hacerse si un heredero no quiere firmar o participar en una sucesión en La Plata y la Provincia de Buenos Aires.",
+    intro:
+      "Que un heredero no quiera firmar no significa que todo el proceso quede detenido. Primero debe distinguirse qué actuación se quiere realizar y si requiere la participación conjunta.",
+    answer:
+      "Una persona legitimada puede promover el proceso sucesorio y pedir las notificaciones correspondientes. La declaratoria, la administración, la partición y la venta son etapas diferentes: algunas pueden avanzar sin iniciativa conjunta y otras exigen acuerdo o una decisión judicial.",
+    sections: [
+      {
+        title: "Qué puede avanzar sin una presentación conjunta",
+        paragraphs: [
+          "El proceso puede ser iniciado por una persona con interés legítimo, denunciando a los demás posibles herederos para que sean citados. La falta de firma de uno de ellos no equivale a una renuncia ni elimina sus derechos.",
+          "También pueden solicitarse medidas de conservación o información cuando sean necesarias para proteger el patrimonio.",
+        ],
+      },
+      {
+        title: "Actos que requieren un análisis diferente",
+        bullets: [
+          "Administrar bienes de la herencia o celebrar locaciones.",
+          "Vender, adjudicar o partir bienes indivisos.",
+          "Retirar fondos o disponer de activos registrables.",
+          "Aprobar convenios que afecten la porción de cada heredero.",
+        ],
+      },
+      {
+        title: "Si la negativa pone en riesgo los bienes",
+        paragraphs: [
+          "El Código Civil y Comercial permite pedir medidas urgentes cuando la negativa de un coheredero pone en peligro el interés común. La respuesta debe ser proporcional al problema y dependerá de la prueba disponible y del estado del expediente.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puedo iniciar la sucesión sin la firma de todos?",
+        answer:
+          "En muchos casos sí. Una persona legitimada puede promoverla y denunciar a quienes deben ser citados. Luego se analiza qué actos requieren conformidad o intervención judicial.",
+      },
+      {
+        question: "¿El heredero que no participa pierde su parte?",
+        answer:
+          "No. La falta de participación no equivale por sí sola a renunciar a la herencia ni permite excluirlo del proceso.",
+      },
+      {
+        question: "¿Se puede vender un bien si un heredero se opone?",
+        answer:
+          "No debe asumirse una venta automática. Puede ser necesario resolver la administración, la partición o una autorización judicial según el bien, el motivo de la oposición y el estado del expediente.",
+      },
+    ],
+    related: ["conflictos-entre-herederos", "sucesion-sin-testamento", "cesion-de-derechos-hereditarios"],
+  },
+  {
+    slug: "cesion-de-derechos-hereditarios",
+    eyebrow: "Cesión de herencia",
+    title: "Cesión de derechos hereditarios: alcance y requisitos",
+    metaTitle: "Cesión de derechos hereditarios",
+    description:
+      "Qué significa ceder derechos hereditarios, qué forma exige la ley y qué debe revisarse antes de una cesión en una sucesión.",
+    intro:
+      "La cesión permite transferir a otra persona la posición que corresponde en una herencia ya abierta. No debe confundirse con vender directamente un bien determinado.",
+    answer:
+      "La cesión de derechos hereditarios debe otorgarse por escritura pública. Entre las partes produce efectos desde su celebración y, frente a otros herederos, legatarios y acreedores del cedente, desde que la escritura se incorpora al expediente sucesorio.",
+    sections: [
+      {
+        title: "Qué adquiere el cesionario",
+        paragraphs: [
+          "Como regla, el cesionario recibe los derechos que correspondían al cedente en la herencia, con el alcance, cargas y exclusiones previstos en el contrato y en la ley. Por eso es importante reconstruir el patrimonio y el pasivo antes de fijar condiciones.",
+          "La cesión puede ser onerosa o gratuita y sus consecuencias no son idénticas en materia de garantías, impuestos y obligaciones.",
+        ],
+      },
+      {
+        title: "Cesión de herencia y bien determinado",
+        paragraphs: [
+          "Ceder la participación hereditaria no transfiere automáticamente el dominio de una casa o un vehículo específico. Si el acuerdo se refiere a un bien determinado, su eficacia queda sujeta a que ese bien sea atribuido al cedente en la partición.",
+        ],
+      },
+      {
+        title: "Controles antes de firmar",
+        bullets: [
+          "Calidad de heredero y porción que se pretende ceder.",
+          "Bienes, deudas, cargas y litigios conocidos.",
+          "Precio, forma de pago y distribución de gastos e impuestos.",
+          "Alcance de las garantías asumidas por cada parte.",
+          "Incorporación de la escritura al expediente sucesorio.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Los demás herederos deben aprobar la cesión?",
+        answer:
+          "La cesión de la propia participación no se confunde con disponer de bienes comunes. Deben revisarse el contrato, la porción cedida y sus efectos en el expediente antes de afirmar qué conformidades son necesarias.",
+      },
+      {
+        question: "¿Puede cederse solamente una casa de la herencia?",
+        answer:
+          "La ley diferencia la cesión de herencia de la cesión sobre un bien determinado. Esta última queda sujeta a que el bien sea atribuido al cedente en la partición.",
+      },
+      {
+        question: "¿Cesión y renuncia son lo mismo?",
+        answer:
+          "No. La renuncia implica apartarse de la herencia en los términos legales; la cesión transfiere derechos a otra persona y puede incluir una contraprestación.",
+      },
+    ],
+    related: ["declaratoria-de-herederos", "vender-inmueble-en-una-sucesion", "heredero-no-quiere-firmar-sucesion"],
+  },
+  {
+    slug: "sucesion-con-deudas",
+    eyebrow: "Pasivo sucesorio",
+    title: "Sucesión con deudas: qué deben revisar los herederos",
+    metaTitle: "Sucesión con deudas en PBA",
+    description:
+      "Cómo se tratan las deudas del fallecido y las cargas de la sucesión, qué responsabilidad tienen los herederos y qué conviene verificar.",
+    intro:
+      "La herencia puede incluir bienes, créditos, deudas y cargas. Antes de distribuir o vender activos conviene identificar el pasivo y separar las obligaciones del causante de los gastos propios del proceso.",
+    answer:
+      "Como regla, el heredero responde por las deudas y legados hasta el valor de los bienes hereditarios recibidos. Existen excepciones que pueden comprometer bienes propios, por ejemplo ante ocultamiento fraudulento o determinados actos de disposición, por lo que la administración del patrimonio exige cautela.",
+    sections: [
+      {
+        title: "Qué obligaciones conviene relevar",
+        bullets: [
+          "Préstamos, tarjetas, impuestos, tasas y servicios.",
+          "Expensas, contratos, juicios y obligaciones garantizadas.",
+          "Gastos de conservación y cargas del proceso sucesorio.",
+          "Créditos laborales, alimentarios o de otra naturaleza.",
+          "Bienes afectados por hipotecas, prendas o embargos.",
+        ],
+      },
+      {
+        title: "Preferencia y responsabilidad",
+        paragraphs: [
+          "Los acreedores del causante y de la sucesión tienen preferencia sobre los bienes hereditarios frente a los acreedores personales de los herederos. Si hay varios herederos, la responsabilidad se atiende inicialmente con la masa indivisa.",
+          "La limitación al valor recibido no debe interpretarse como una autorización para ocultar, retirar o vender bienes sin control. La ley contempla supuestos de responsabilidad con patrimonio propio.",
+        ],
+      },
+      {
+        title: "Antes de aceptar acuerdos o vender",
+        paragraphs: [
+          "Es útil comparar el activo conocido con el pasivo, conservar comprobantes y revisar intimaciones o procesos pendientes. La decisión sobre aceptación, renuncia, pago o negociación depende de información concreta y no de una estimación aislada.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Los herederos pagan siempre con su propio dinero?",
+        answer:
+          "Como regla, la responsabilidad se limita al valor de los bienes hereditarios recibidos. La ley prevé excepciones por determinadas conductas, por lo que cada caso debe revisarse.",
+      },
+      {
+        question: "¿Puede renunciarse si hay muchas deudas?",
+        answer:
+          "La renuncia es posible mientras no haya mediado un acto de aceptación y debe cumplir la forma legal. Antes de decidir conviene revisar qué actos ya se realizaron y cuál es el patrimonio real.",
+      },
+      {
+        question: "¿Se pueden repartir bienes antes de pagar?",
+        answer:
+          "Los acreedores y las cargas tienen reglas de preferencia. Distribuir o disponer de bienes sin considerar el pasivo puede generar conflictos y responsabilidad.",
+      },
+    ],
+    related: ["costo-de-una-sucesion-en-provincia-de-buenos-aires", "cuentas-bancarias-y-plazos-fijos-en-una-sucesion", "declaratoria-de-herederos"],
+  },
+  {
+    slug: "cuentas-bancarias-y-plazos-fijos-en-una-sucesion",
+    eyebrow: "Fondos bancarios",
+    title: "Cómo cobrar cuentas bancarias y plazos fijos de una sucesión",
+    metaTitle: "Cuentas bancarias en una sucesión",
+    description:
+      "Cómo identificar y cobrar cuentas, saldos y plazos fijos de una persona fallecida dentro de una sucesión en Provincia de Buenos Aires.",
+    intro:
+      "Los fondos bancarios forman parte del patrimonio que debe identificarse y denunciarse. Tener una tarjeta, clave o ser cotitular no define por sí solo qué porción integra la herencia.",
+    answer:
+      "Habitualmente se solicita información a la entidad dentro del proceso, se acredita quiénes están legitimados y se obtiene la orden necesaria para transferir o distribuir los fondos. El recorrido depende del producto, la moneda, la titularidad y las medidas que existan sobre la cuenta.",
+    sections: [
+      {
+        title: "Información útil para comenzar",
+        bullets: [
+          "Nombre de la entidad, sucursal y producto conocido.",
+          "Constancias de cuentas, inversiones o plazos fijos.",
+          "Titulares, cotitulares, autorizados y beneficiarios informados.",
+          "Moneda, vencimientos y movimientos relevantes.",
+          "Posibles deudas, débitos o medidas judiciales.",
+        ],
+      },
+      {
+        title: "Cómo se acredita el saldo",
+        paragraphs: [
+          "Cuando la información no está disponible, puede pedirse que la entidad informe productos y saldos a la fecha correspondiente. El secreto bancario y la seguridad de los fondos hacen que no baste una manifestación informal de parentesco.",
+          "La existencia de una cuenta conjunta requiere analizar su modalidad y el origen de los fondos; no permite asumir que todo el saldo pertenece al sobreviviente o a la herencia.",
+        ],
+      },
+      {
+        title: "Cobro y distribución",
+        paragraphs: [
+          "Una vez acreditados los fondos y la legitimación, puede solicitarse su transferencia a una cuenta judicial o el mecanismo que corresponda. Antes de distribuirlos deben considerarse las deudas, cargas, porciones y órdenes vigentes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puede retirarse dinero con la tarjeta del fallecido?",
+        answer:
+          "No es una vía adecuada para disponer del patrimonio hereditario. Los fondos deben identificarse y cobrarse mediante el procedimiento que preserve los derechos de herederos y acreedores.",
+      },
+      {
+        question: "¿Qué ocurre con un plazo fijo?",
+        answer:
+          "Debe informarse en la sucesión y coordinarse con la entidad. El vencimiento, la renovación, la moneda y la titularidad pueden modificar la forma de cumplimiento.",
+      },
+      {
+        question: "¿Una cuenta conjunta queda fuera de la sucesión?",
+        answer:
+          "No necesariamente. Deben analizarse el contrato de la cuenta, la titularidad y el origen de los fondos antes de determinar qué parte integra la herencia.",
+      },
+    ],
+    related: ["declaratoria-de-herederos", "documentos-para-iniciar-una-sucesion", "sucesion-con-deudas"],
+  },
+  {
+    slug: "heredero-con-domicilio-desconocido",
+    eyebrow: "Heredero no localizado",
+    title: "Sucesión con un heredero cuyo domicilio se desconoce",
+    metaTitle: "Heredero con domicilio desconocido",
+    description:
+      "Cómo avanzar en una sucesión cuando se conoce la existencia de un heredero pero no su domicilio actual en Provincia de Buenos Aires.",
+    intro:
+      "No conocer el domicilio de un heredero exige demostrar qué información se tiene y realizar las diligencias de localización y notificación que ordene el juzgado.",
+    answer:
+      "La falta de domicilio conocido no elimina al heredero ni paraliza automáticamente el expediente. Debe ser denunciado con todos los datos disponibles, agotarse las medidas razonables de búsqueda y utilizar la forma de citación que corresponda según el resultado.",
+    sections: [
+      {
+        title: "Datos que ayudan a localizarlo",
+        bullets: [
+          "Nombre completo, documento y fecha de nacimiento.",
+          "Último domicilio o localidad conocida.",
+          "Vínculo familiar y partidas que lo acrediten.",
+          "Datos de contacto, actividad o familiares relacionados.",
+          "Antecedentes de notificaciones o búsquedas anteriores.",
+        ],
+      },
+      {
+        title: "Búsqueda y notificación",
+        paragraphs: [
+          "El juzgado puede ordenar informes y diligencias antes de habilitar una notificación por edictos u otro medio. No conviene afirmar que el domicilio se desconoce sin documentar las gestiones realizadas.",
+          "Las medidas dependen de la información disponible y de si se trata de una persona individualizada, un posible heredero o interesados todavía indeterminados.",
+        ],
+      },
+      {
+        title: "Si no se presenta",
+        paragraphs: [
+          "La incomparecencia no convierte automáticamente su porción en propiedad de los demás. El expediente puede requerir medidas de representación, reserva o administración para proteger derechos mientras continúa el trámite.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿La sucesión puede continuar si no se encuentra al heredero?",
+        answer:
+          "Puede continuar con las medidas de búsqueda, citación y protección que disponga el juzgado. El alcance depende de la etapa y de las decisiones que se pretendan adoptar.",
+      },
+      {
+        question: "¿Publicar edictos siempre es suficiente?",
+        answer:
+          "No debe asumirse automáticamente. Primero pueden exigirse informes o diligencias para intentar determinar el domicilio de una persona conocida.",
+      },
+      {
+        question: "¿Qué ocurre si aparece después?",
+        answer:
+          "Puede presentarse y ejercer los derechos que correspondan. La situación debe analizarse según las resoluciones y actos ya cumplidos.",
+      },
+    ],
+    related: ["heredero-no-quiere-firmar-sucesion", "sucesion-sin-testamento", "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires"],
+  },
+  {
+    slug: "sucesion-con-herederos-en-el-extranjero",
+    eyebrow: "Herederos en el exterior",
+    title: "Sucesión con herederos que viven en el extranjero",
+    metaTitle: "Herederos en el extranjero",
+    description:
+      "Cómo participa un heredero que vive fuera de Argentina, qué documentos puede necesitar y cómo coordinar una sucesión en PBA.",
+    intro:
+      "Vivir en otro país no impide ser heredero ni obliga necesariamente a viajar para cada actuación. La representación y los documentos deben prepararse con la forma válida para producir efectos en Argentina.",
+    answer:
+      "El heredero puede intervenir personalmente o mediante un poder suficiente. Según el país y el documento, pueden ser necesarias apostilla o legalización, traducción pública y otras formalidades antes de incorporarlo al expediente.",
+    sections: [
+      {
+        title: "Formas de participar",
+        bullets: [
+          "Otorgar un poder con facultades adecuadas para el trámite.",
+          "Presentar documentación de identidad y vínculo en forma válida.",
+          "Coordinar firmas y decisiones patrimoniales desde el exterior.",
+          "Cumplir recaudos adicionales para particiones, cesiones o ventas.",
+        ],
+      },
+      {
+        title: "Documentos emitidos fuera de Argentina",
+        paragraphs: [
+          "La exigencia de apostilla, legalización consular o dispensa depende del país, los convenios vigentes y el tipo de documento. Si está redactado en otro idioma, puede requerir traducción pública y legalización profesional.",
+          "Conviene definir primero para qué se utilizará el documento y qué facultades debe contener, evitando rehacer instrumentos por omisiones.",
+        ],
+      },
+      {
+        title: "Aspectos patrimoniales y fiscales",
+        paragraphs: [
+          "La residencia en el exterior puede influir en transferencias bancarias, identificación tributaria y obligaciones informativas. Estas cuestiones deben coordinarse con el objetivo final: conservar, adjudicar, ceder o vender.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿El heredero debe viajar a Argentina?",
+        answer:
+          "No necesariamente. Muchas actuaciones pueden canalizarse mediante representación, pero ciertas decisiones requieren facultades expresas y documentación preparada para el acto concreto.",
+      },
+      {
+        question: "¿Todo documento extranjero lleva apostilla?",
+        answer:
+          "No siempre. Depende del país de origen, los convenios aplicables, el tipo de instrumento y su destino. Debe verificarse antes de emitirlo.",
+      },
+      {
+        question: "¿Una persona extranjera puede heredar en Argentina?",
+        answer:
+          "La nacionalidad no excluye por sí sola la vocación hereditaria. Deben analizarse el vínculo, la ley aplicable, la ubicación de los bienes y las exigencias documentales y fiscales.",
+      },
+    ],
+    related: ["documentos-para-iniciar-una-sucesion", "declaratoria-de-herederos", "sucesion-con-bienes-en-otras-provincias-o-exterior"],
+  },
+  {
+    slug: "sucesion-con-herederos-menores-de-edad",
+    eyebrow: "Protección de menores",
+    title: "Sucesión con herederos menores de edad",
+    metaTitle: "Sucesión con herederos menores de edad",
+    description:
+      "Cómo intervienen y son representados los herederos menores de edad en una sucesión y qué controles existen sobre sus bienes.",
+    intro:
+      "Las personas menores de edad pueden heredar. Su participación requiere representación y controles destinados a proteger su interés patrimonial durante todo el proceso.",
+    answer:
+      "El representante legal actúa por el menor dentro de los límites de sus facultades y con intervención de los organismos de protección que correspondan. Los actos de disposición, partición o acuerdo pueden exigir autorización judicial y un control reforzado.",
+    sections: [
+      {
+        title: "Representación en el expediente",
+        paragraphs: [
+          "Habitualmente intervienen quienes ejercen la responsabilidad parental o la representación legal. Si existe un conflicto de intereses entre representante y menor, puede ser necesario designar una representación especial.",
+          "La aceptación realizada por el representante no puede obligar al menor por deudas más allá del valor de los bienes que le sean atribuidos.",
+        ],
+      },
+      {
+        title: "Decisiones que requieren especial cuidado",
+        bullets: [
+          "Particiones y adjudicaciones de bienes.",
+          "Venta, hipoteca o cesión de activos hereditarios.",
+          "Acuerdos que reduzcan o modifiquen su porción.",
+          "Uso de dinero, indemnizaciones o rentas que le correspondan.",
+          "Conflictos entre el interés del menor y el de sus representantes.",
+        ],
+      },
+      {
+        title: "Interés superior y control judicial",
+        paragraphs: [
+          "No alcanza con que los adultos estén de acuerdo. La propuesta debe mostrar por qué protege el patrimonio y el interés del menor, con valuaciones, condiciones y destino de los fondos cuando sean pertinentes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Un menor puede ser declarado heredero?",
+        answer:
+          "Sí. La edad no impide heredar; determina la forma de representación y los controles aplicables durante el proceso.",
+      },
+      {
+        question: "¿Los padres pueden vender libremente un bien heredado por el menor?",
+        answer:
+          "No debe asumirse. Los actos de disposición sobre bienes del menor pueden requerir autorización judicial y demostrar que protegen su interés.",
+      },
+      {
+        question: "¿Qué pasa si el padre o la madre también heredan?",
+        answer:
+          "Debe verificarse si sus intereses coinciden o entran en conflicto con los del menor. Si existe oposición de intereses, puede requerirse una representación especial.",
+      },
+    ],
+    related: ["sucesion-sin-testamento", "vender-inmueble-en-una-sucesion", "bienes-propios-y-gananciales-en-una-sucesion"],
+  },
+  {
+    slug: "sucesion-con-bienes-en-otras-provincias-o-exterior",
+    eyebrow: "Bienes en otras jurisdicciones",
+    title: "Sucesión con bienes en otras provincias o en el exterior",
+    metaTitle: "Bienes sucesorios en otras jurisdicciones",
+    description:
+      "Cómo tramitar una sucesión con inmuebles, cuentas u otros bienes ubicados en distintas provincias argentinas o en el exterior.",
+    intro:
+      "Cuando el patrimonio está distribuido entre varias jurisdicciones, el primer paso es separar la competencia del proceso de los requisitos necesarios para reconocer e inscribir cada bien.",
+    answer:
+      "Como regla, intervienen los jueces del último domicilio del causante; para inmuebles situados en Argentina también existe competencia vinculada con su ubicación. Los bienes en otra provincia pueden requerir comunicaciones e inscripción local, mientras que los del exterior pueden exigir reconocimiento o actuación en ese país.",
+    sections: [
+      {
+        title: "Bienes en otra provincia argentina",
+        paragraphs: [
+          "No siempre es necesario abrir procesos sucesorios independientes. Puede ser posible utilizar testimonios, oficios u otros instrumentos emitidos por el juzgado competente y cumplir las reglas del registro donde se encuentra el bien.",
+          "Impuestos, valuaciones y formalidades registrales pueden variar entre jurisdicciones.",
+        ],
+      },
+      {
+        title: "Bienes situados en el exterior",
+        paragraphs: [
+          "Debe analizarse la ley del último domicilio del causante y la ley del lugar donde se ubica el activo. Un inmueble, una cuenta bancaria o una participación societaria pueden requerir recorridos diferentes.",
+          "La documentación argentina puede necesitar apostilla, traducción y reconocimiento en el país de destino; también puede ser necesario un profesional local.",
+        ],
+      },
+      {
+        title: "Mapa patrimonial inicial",
+        bullets: [
+          "Tipo de bien, titularidad y país o provincia de ubicación.",
+          "Último domicilio y nacionalidad del causante.",
+          "Testamentos, poderes y procesos ya iniciados.",
+          "Registros, entidades y documentación disponible.",
+          "Impuestos y restricciones para transferir o cobrar.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Hay que iniciar una sucesión en cada provincia?",
+        answer:
+          "No necesariamente. Deben distinguirse la competencia del proceso y los trámites de inscripción o cumplimiento exigidos donde se encuentra cada bien.",
+      },
+      {
+        question: "¿Una cuenta bancaria extranjera se cobra con la declaratoria argentina?",
+        answer:
+          "Puede ser necesario reconocer la documentación o cumplir un procedimiento local. La respuesta depende del país, la entidad y el tipo de cuenta.",
+      },
+      {
+        question: "¿Qué ley rige un inmueble ubicado en Argentina?",
+        answer:
+          "El Código Civil y Comercial establece la aplicación del derecho argentino a los inmuebles situados en el país, además de reglas específicas de jurisdicción.",
+      },
+    ],
+    related: ["sucesion-con-herederos-en-el-extranjero", "inscripcion-de-bienes-heredados", "cuentas-bancarias-y-plazos-fijos-en-una-sucesion"],
+  },
 ];
 
 export function getSeoPage(slug: string) {
@@ -823,6 +1262,42 @@ const dnrpaDigestoSource: OfficialSource = {
   name: "Digesto de Normas Técnico-Registrales de la DNRPA",
   detail: "Normativa vigente para transferencias ordenadas en juicios sucesorios.",
   url: "https://www.dnrpa.gov.ar/nuevodigesto/",
+};
+
+const inheritanceAssignmentSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 1618 y 2302 a 2309: forma, efectos y alcance de la cesión de herencia.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritanceDebtsSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2316 a 2322: responsabilidad de herederos y liquidación del pasivo.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritanceAdministrationSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2323 a 2327: administración y medidas urgentes durante la indivisión.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const minorsProtectionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Representación, protección patrimonial y aceptación de herencias por personas menores de edad.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const internationalSuccessionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2643 y 2644: jurisdicción y derecho aplicable a las sucesiones internacionales.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const apostilleSource: OfficialSource = {
+  name: "Cancillería Argentina",
+  detail: "Información oficial sobre apostilla y legalización de documentos con validez internacional.",
+  url: "https://cancilleria.gob.ar/es/servicios/apostilla-legalizacion-con-validez-internacional-tad",
 };
 
 export const geoContent: Record<string, GeoContent> = {
@@ -1020,6 +1495,126 @@ export const geoContent: Record<string, GeoContent> = {
       "¿Se busca mantenerlo, adjudicarlo o venderlo?",
     ],
     sources: [dnrpaTransferSource, dnrpaDigestoSource, civilCodeSource],
+  },
+  "heredero-no-quiere-firmar-sucesion": {
+    keyPoints: [
+      "Una persona legitimada puede promover el proceso y denunciar a los demás herederos.",
+      "No firmar no equivale a renunciar ni a perder la porción hereditaria.",
+      "Administración, disposición y partición tienen requisitos distintos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una heredera quiere iniciar el trámite, pero su hermano no responde. Puede promover el expediente y pedir su citación; si luego pretende vender un inmueble, deberá resolver específicamente la falta de acuerdo.",
+    questions: [
+      "¿Qué actuación concreta se necesita firmar?",
+      "¿El heredero fue correctamente identificado y notificado?",
+      "¿La negativa pone en riesgo algún bien o solamente impide un acuerdo?",
+    ],
+    sources: [inheritanceAdministrationSource, proceduralCodeSource, civilCodeSource],
+  },
+  "cesion-de-derechos-hereditarios": {
+    keyPoints: [
+      "La cesión de derechos hereditarios requiere escritura pública.",
+      "Transfiere una posición en la herencia, no automáticamente un bien determinado.",
+      "La escritura debe incorporarse al expediente para producir determinados efectos frente a terceros.",
+    ],
+    scenario:
+      "Ejemplo orientativo: uno de tres herederos quiere recibir dinero y apartarse del interés económico en la herencia. Antes de ceder se revisan su porción, las deudas, los bienes y las condiciones de la escritura.",
+    questions: [
+      "¿Se cede toda la participación o un alcance limitado?",
+      "¿Qué activo y pasivo se conoce al momento de contratar?",
+      "¿La escritura ya fue incorporada al proceso sucesorio?",
+    ],
+    sources: [inheritanceAssignmentSource, civilCodeSource, proceduralCodeSource],
+  },
+  "sucesion-con-deudas": {
+    keyPoints: [
+      "La herencia comprende activo, deudas y cargas.",
+      "La responsabilidad se limita como regla al valor hereditario recibido.",
+      "Ciertas conductas pueden generar responsabilidad con bienes propios.",
+    ],
+    scenario:
+      "Ejemplo orientativo: la familia conoce una vivienda, un préstamo y deudas fiscales. Antes de distribuir el inmueble reconstruye el pasivo y evita actos que perjudiquen la preferencia de los acreedores.",
+    questions: [
+      "¿Qué obligaciones corresponden al causante y cuáles al proceso?",
+      "¿Existen garantías, juicios o intimaciones pendientes?",
+      "¿Ya se realizaron actos que puedan implicar aceptación o disposición?",
+    ],
+    sources: [inheritanceDebtsSource, proceduralCodeSource, civilCodeSource],
+  },
+  "cuentas-bancarias-y-plazos-fijos-en-una-sucesion": {
+    keyPoints: [
+      "Los saldos deben identificarse y acreditarse dentro del patrimonio sucesorio.",
+      "Una cuenta conjunta no define por sí sola la propiedad de todo el dinero.",
+      "El cobro debe coordinar legitimación, orden judicial, cargas y distribución.",
+    ],
+    scenario:
+      "Ejemplo orientativo: los herederos encuentran un resumen de cuenta y un plazo fijo en dólares. Solicitan información sobre titularidad y saldo antes de pedir el mecanismo judicial de cobro.",
+    questions: [
+      "¿Qué entidad, producto, moneda y titulares figuran?",
+      "¿Hay deudas, débitos o medidas sobre los fondos?",
+      "¿El objetivo es conservar, distribuir o aplicar el dinero a cargas?",
+    ],
+    sources: [civilCodeSource, proceduralCodeSource, inheritanceDebtsSource],
+  },
+  "heredero-con-domicilio-desconocido": {
+    keyPoints: [
+      "El heredero debe denunciarse con todos los datos disponibles.",
+      "Pueden exigirse búsquedas antes de autorizar una citación por edictos.",
+      "La incomparecencia no elimina automáticamente sus derechos.",
+    ],
+    scenario:
+      "Ejemplo orientativo: la familia conoce nombre y documento de un hermano, pero perdió contacto hace años. Informa el último domicilio y pide medidas de localización antes de avanzar con decisiones patrimoniales.",
+    questions: [
+      "¿La persona está individualizada y su vínculo está acreditado?",
+      "¿Qué domicilios, contactos y búsquedas pueden documentarse?",
+      "¿Qué medida se pretende adoptar mientras no comparece?",
+    ],
+    sources: [proceduralCodeSource, civilCodeSource, scbaSource],
+  },
+  "sucesion-con-herederos-en-el-extranjero": {
+    keyPoints: [
+      "Vivir fuera del país no impide heredar.",
+      "Un poder debe contener facultades adecuadas para los actos previstos.",
+      "Apostilla, legalización y traducción dependen del documento y del país.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una heredera vive en España y quiere participar sin viajar. Antes de otorgar el poder se definen las facultades necesarias y la forma en que el instrumento será válido en Argentina.",
+    questions: [
+      "¿En qué país reside y qué documentos debe otorgar?",
+      "¿Necesita solamente intervenir o también vender, ceder o partir?",
+      "¿Existen requisitos fiscales o bancarios asociados a su residencia?",
+    ],
+    sources: [apostilleSource, internationalSuccessionSource, proceduralCodeSource],
+  },
+  "sucesion-con-herederos-menores-de-edad": {
+    keyPoints: [
+      "Las personas menores de edad pueden heredar mediante representación.",
+      "Un conflicto con sus representantes puede exigir representación especial.",
+      "Particiones y actos de disposición están sujetos a control reforzado.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una madre y su hijo menor heredan un inmueble. Como ambos tienen interés en la distribución, se analiza la representación y la autorización necesaria antes de acordar una venta.",
+    questions: [
+      "¿Quién ejerce la representación legal del menor?",
+      "¿Existe un conflicto de intereses en la propuesta?",
+      "¿Cómo se protege la porción y el destino de los fondos del menor?",
+    ],
+    sources: [minorsProtectionSource, civilCodeSource, proceduralCodeSource],
+  },
+  "sucesion-con-bienes-en-otras-provincias-o-exterior": {
+    keyPoints: [
+      "La competencia sucesoria y la inscripción de cada bien son cuestiones diferentes.",
+      "Los registros de otras provincias pueden exigir instrumentos y cargas locales.",
+      "Los bienes en el exterior pueden requerir reconocimiento o actuación en ese país.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante tenía domicilio en La Plata, un inmueble en Córdoba y una cuenta en Uruguay. Se diseña un recorrido coordinado para acreditar la sucesión y cumplir en cada jurisdicción.",
+    questions: [
+      "¿Dónde tuvo su último domicilio el causante?",
+      "¿Qué tipo de activo existe en cada jurisdicción?",
+      "¿Qué documentos, impuestos y profesionales locales pueden intervenir?",
+    ],
+    sources: [internationalSuccessionSource, apostilleSource, registryLawSource],
   },
 };
 
