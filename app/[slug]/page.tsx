@@ -144,7 +144,7 @@ export default async function SeoContentPage({ params }: { params: Promise<{ slu
               <section className="article-note">
                 <h2>Criterio editorial y alcance</h2>
                 <p>
-                  Esta guía ofrece información general, fue revisada por el equipo de Abogados de Sucesiones en La Plata el 28 de julio de 2026 y se apoya en fuentes públicas oficiales. La solución aplicable depende de los vínculos, los bienes, la documentación y el estado de cada expediente. <Link href="/criterios-editoriales">Conocé cómo elaboramos y actualizamos el contenido</Link>.
+                  Esta guía ofrece información general, fue revisada por el equipo de Abogados de Sucesiones en La Plata el 29 de julio de 2026 y se apoya en fuentes públicas oficiales. La solución aplicable depende de los vínculos, los bienes, la documentación y el estado de cada expediente. <Link href="/criterios-editoriales">Conocé cómo elaboramos y actualizamos el contenido</Link>.
                 </p>
               </section>
 
