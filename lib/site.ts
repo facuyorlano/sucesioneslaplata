@@ -103,7 +103,7 @@ export const seoPages: SeoPage[] = [
           "No es obligatorio. Cuando existe acuerdo puede resultar más simple coordinar una estrategia común; si hay intereses contrapuestos, cada parte puede contar con asesoramiento propio.",
       },
     ],
-    related: ["documentos-para-iniciar-una-sucesion", "inscripcion-de-bienes-heredados", "sucesion-sin-testamento"],
+    related: ["documentos-para-iniciar-una-sucesion", "heredero-omitido-ampliacion-declaratoria", "sucesion-sin-testamento"],
   },
   {
     slug: "sucesion-sin-testamento",
@@ -156,7 +156,7 @@ export const seoPages: SeoPage[] = [
           "Como regla, interviene el juez del último domicilio de la persona fallecida, con las excepciones previstas por la legislación aplicable.",
       },
     ],
-    related: ["declaratoria-de-herederos", "bienes-propios-y-gananciales-en-una-sucesion", "conflictos-entre-herederos"],
+    related: ["declaratoria-de-herederos", "sucesion-sin-hijos-quienes-heredan", "herencia-entre-hermanos-y-sobrinos"],
   },
   {
     slug: "sucesion-con-testamento",
@@ -210,7 +210,7 @@ export const seoPages: SeoPage[] = [
           "Debe determinarse su validez, fecha y compatibilidad. Un testamento posterior puede revocar total o parcialmente uno anterior.",
       },
     ],
-    related: ["declaratoria-de-herederos", "inscripcion-de-bienes-heredados", "conflictos-entre-herederos"],
+    related: ["declaratoria-de-herederos", "donaciones-en-vida-y-colacion-hereditaria", "conviviente-hereda-en-argentina"],
   },
   {
     slug: "tracto-abreviado",
@@ -370,7 +370,7 @@ export const seoPages: SeoPage[] = [
           "Depende del objetivo, la urgencia y la prueba disponible. Antes de formalizar una posición conviene definir qué se busca obtener y qué consecuencias puede producir.",
       },
     ],
-    related: ["heredero-ocupa-inmueble-sucesion", "sucesion-sin-testamento", "declaratoria-de-herederos"],
+    related: ["heredero-ocupa-inmueble-sucesion", "heredero-no-quiere-firmar-sucesion", "particion-de-bienes-hereditarios"],
   },
   {
     slug: "documentos-para-iniciar-una-sucesion",
@@ -702,7 +702,7 @@ export const seoPages: SeoPage[] = [
           "No puede aplicarse esa fórmula sin conocer los bienes y quiénes concurren. La liquidación de la comunidad y la vocación hereditaria responden a reglas diferentes.",
       },
     ],
-    related: ["sucesion-sin-testamento", "declaratoria-de-herederos", "heredero-ocupa-inmueble-sucesion"],
+    related: ["derechos-del-conyuge-viudo-en-una-sucesion", "sucesion-sin-testamento", "donaciones-en-vida-y-colacion-hereditaria"],
   },
   {
     slug: "sucesion-de-automotores-en-provincia-de-buenos-aires",
@@ -1198,7 +1198,504 @@ export const seoPages: SeoPage[] = [
     ],
     related: ["sucesion-con-herederos-en-el-extranjero", "inscripcion-de-bienes-heredados", "cuentas-bancarias-y-plazos-fijos-en-una-sucesion"],
   },
+  {
+    slug: "renunciar-a-una-herencia",
+    eyebrow: "Renuncia de herencia",
+    title: "Renunciar a una herencia: requisitos y consecuencias",
+    metaTitle: "Renuncia a una herencia en PBA",
+    description:
+      "Cuándo puede renunciarse a una herencia, qué forma exige la ley y qué consecuencias produce para el heredero y su familia.",
+    intro:
+      "La renuncia es una decisión formal que aparta al llamado a heredar. Antes de realizarla debe verificarse que no haya existido aceptación y cómo repercute en los demás sucesores.",
+    answer:
+      "Puede renunciar quien todavía no aceptó la herencia. La renuncia debe expresarse por escritura pública o por acta judicial incorporada al expediente y, como regla, hace que la persona sea considerada como si nunca hubiese sido llamada, sin perjuicio del derecho de representación cuando corresponda.",
+    sections: [
+      {
+        title: "Antes de decidir",
+        bullets: [
+          "Reconstruir bienes, deudas y cargas conocidas.",
+          "Revisar si ya se realizaron actos que impliquen aceptación.",
+          "Identificar quiénes ocuparían el lugar del renunciante.",
+          "Diferenciar renuncia, cesión y partición.",
+        ],
+      },
+      {
+        title: "Forma y efectos",
+        paragraphs: [
+          "Una manifestación informal entre familiares no alcanza. La ley exige escritura pública o acta judicial con los recaudos indicados para que la renuncia produzca efectos.",
+          "La porción no se entrega libremente a una persona elegida por el renunciante. La sucesión se reordena según las reglas legales y puede abrirse el derecho de representación.",
+        ],
+      },
+      {
+        title: "Posibilidad de retractación",
+        paragraphs: [
+          "La retractación sólo es posible bajo condiciones: que no haya caducado el derecho de opción, que otros herederos no hayan aceptado y que el Estado no haya sido puesto en posesión. Además, no afecta derechos ya adquiridos por terceros.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puedo renunciar después de iniciar la sucesión?",
+        answer:
+          "Depende de los actos realizados. Iniciar o intervenir puede tener efectos distintos según la conducta concreta; debe verificarse si hubo aceptación antes de instrumentar la renuncia.",
+      },
+      {
+        question: "¿Puedo renunciar a favor de un hermano?",
+        answer:
+          "La renuncia no permite elegir beneficiario. Si se pretende transferir la participación a una persona determinada, debe analizarse si corresponde una cesión de derechos hereditarios.",
+      },
+      {
+        question: "¿Mis hijos heredan si yo renuncio?",
+        answer:
+          "Puede operar el derecho de representación en los casos previstos por la ley. La respuesta depende del vínculo y del orden sucesorio aplicable.",
+      },
+    ],
+    related: ["sucesion-con-deudas", "cesion-de-derechos-hereditarios", "sucesion-sin-hijos-quienes-heredan"],
+  },
+  {
+    slug: "particion-de-bienes-hereditarios",
+    eyebrow: "Partición hereditaria",
+    title: "Partición de bienes hereditarios: acuerdo y vía judicial",
+    metaTitle: "Partición de bienes hereditarios",
+    description:
+      "Cómo termina la indivisión hereditaria, cuándo puede hacerse una partición privada y cuándo debe intervenir el juez.",
+    intro:
+      "La declaratoria reconoce herederos, pero no distribuye por sí sola cada bien. La indivisión concluye cuando el patrimonio es partido y cada interesado recibe su adjudicación.",
+    answer:
+      "Si todos los copartícipes están presentes, son plenamente capaces y existe unanimidad, pueden acordar una partición privada. Debe ser judicial cuando hay personas incapaces o ausentes, oposición fundada de terceros o falta de acuerdo entre los copartícipes.",
+    sections: [
+      {
+        title: "Qué debe conocerse antes de partir",
+        bullets: [
+          "Inventario, títulos y valuación de los bienes.",
+          "Deudas, cargas y legados pendientes.",
+          "Porción que corresponde a cada interesado.",
+          "Donaciones o deudas que deban colacionarse.",
+          "Posibilidad de dividir, adjudicar o vender cada activo.",
+        ],
+      },
+      {
+        title: "Partición privada o judicial",
+        paragraphs: [
+          "El acuerdo unánime entre personas capaces permite diseñar lotes, compensaciones y adjudicaciones dentro de los límites legales. Si ese consenso no existe o intervienen personas protegidas, la partición debe canalizarse judicialmente.",
+          "La partición puede ser total o parcial cuando algunos bienes todavía no están en condiciones de dividirse.",
+        ],
+      },
+      {
+        title: "División en especie y venta",
+        paragraphs: [
+          "La ley prioriza dividir y adjudicar bienes en especie cuando sea posible. Si la división resulta imposible o antieconómica, puede corresponder adjudicar con compensaciones o vender para distribuir el producido.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Un solo heredero puede pedir la partición?",
+        answer:
+          "Sí, quien integra la masa indivisa puede solicitarla una vez cumplidos los recaudos legales. La falta de acuerdo determina el modo de tramitarla, no un derecho permanente a mantener la indivisión.",
+      },
+      {
+        question: "¿Todos los bienes deben dividirse al mismo tiempo?",
+        answer:
+          "No necesariamente. La ley admite la partición parcial cuando una parte del patrimonio todavía no puede dividirse.",
+      },
+      {
+        question: "¿La partición de un inmueble debe inscribirse?",
+        answer:
+          "Sí. Cuando incluye bienes registrables, su oponibilidad frente a terceros requiere la inscripción en el registro correspondiente.",
+      },
+    ],
+    related: ["conflictos-entre-herederos", "vender-inmueble-en-una-sucesion", "heredero-no-quiere-firmar-sucesion"],
+  },
+  {
+    slug: "derechos-del-conyuge-viudo-en-una-sucesion",
+    eyebrow: "Cónyuge supérstite",
+    title: "Derechos del cónyuge viudo en una sucesión",
+    metaTitle: "Derechos del cónyuge viudo",
+    description:
+      "Qué hereda el cónyuge viudo cuando concurre con hijos, ascendientes u otros parientes y cómo influyen los bienes gananciales.",
+    intro:
+      "La porción del cónyuge no puede calcularse con una fórmula única. Primero debe liquidarse el régimen matrimonial y luego aplicarse el orden sucesorio según quiénes concurren.",
+    answer:
+      "Con descendientes, el cónyuge recibe en el acervo hereditario una parte equivalente a la de un hijo, pero no participa como heredero en la división de los gananciales que correspondían al fallecido. Con ascendientes recibe la mitad de la herencia y, si no existen descendientes ni ascendientes, excluye a los colaterales.",
+    sections: [
+      {
+        title: "Liquidación matrimonial y herencia",
+        paragraphs: [
+          "La parte que corresponde por liquidar la comunidad no es una cuota hereditaria. Por eso deben clasificarse primero los bienes propios y gananciales, identificar recompensas y recién después calcular la herencia.",
+        ],
+      },
+      {
+        title: "Con quién concurre el cónyuge",
+        bullets: [
+          "Con hijos u otros descendientes: participa según las reglas del artículo 2433.",
+          "Con padres u otros ascendientes: recibe la mitad de la herencia.",
+          "Sin descendientes ni ascendientes: hereda la totalidad y excluye colaterales.",
+          "La separación de hecho sin voluntad de unirse puede excluir derechos sucesorios.",
+        ],
+      },
+      {
+        title: "Vivienda familiar",
+        paragraphs: [
+          "Bajo las condiciones legales, el cónyuge supérstite tiene un derecho real de habitación vitalicio y gratuito sobre el inmueble del causante que constituyó el último hogar conyugal y no estaba en condominio con terceros.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿El cónyuge recibe siempre la mitad más una parte?",
+        answer:
+          "No. Esa fórmula puede ser incorrecta. Deben separarse liquidación matrimonial y herencia, clasificar los bienes e identificar con quién concurre.",
+      },
+      {
+        question: "¿El cónyuge hereda si hay hijos?",
+        answer:
+          "Sí, pero el cálculo depende del carácter propio o ganancial de los bienes y de las reglas específicas de concurrencia con descendientes.",
+      },
+      {
+        question: "¿La separación de hecho modifica el derecho a heredar?",
+        answer:
+          "Puede excluirlo cuando existe separación de hecho sin voluntad de unirse. La situación debe probarse y analizarse según las circunstancias concretas.",
+      },
+    ],
+    related: ["bienes-propios-y-gananciales-en-una-sucesion", "sucesion-sin-hijos-quienes-heredan", "conviviente-hereda-en-argentina"],
+  },
+  {
+    slug: "conviviente-hereda-en-argentina",
+    eyebrow: "Unión convivencial",
+    title: "¿El conviviente hereda en Argentina?",
+    metaTitle: "¿El conviviente hereda en Argentina?",
+    description:
+      "Qué derechos puede tener la pareja conviviente después del fallecimiento y por qué no ocupa automáticamente el lugar de un cónyuge.",
+    intro:
+      "La convivencia, aun prolongada o registrada, no genera por sí sola la misma vocación hereditaria que el matrimonio. Sin embargo, pueden existir otros derechos patrimoniales y habitacionales.",
+    answer:
+      "El conviviente no integra el orden de herederos intestados por el solo hecho de convivir. Puede recibir bienes mediante un testamento dentro de la porción disponible y, si cumple condiciones específicas, invocar un derecho de habitación gratuito por un plazo máximo de dos años sobre el último hogar familiar.",
+    sections: [
+      {
+        title: "Convivencia y vocación hereditaria",
+        paragraphs: [
+          "La inscripción de la unión convivencial facilita su prueba, pero no convierte al conviviente en cónyuge ni le atribuye automáticamente una porción hereditaria.",
+          "Los bienes adquiridos durante la convivencia permanecen, como regla, en el patrimonio al que ingresaron, salvo pactos y reclamos que correspondan por otras figuras.",
+        ],
+      },
+      {
+        title: "Derecho de habitación",
+        paragraphs: [
+          "El conviviente supérstite que carece de vivienda propia habitable o medios suficientes puede invocar el derecho previsto en el artículo 527 si el inmueble era propiedad del causante, fue el último hogar familiar y no estaba en condominio con terceros.",
+          "El derecho tiene límites, es inoponible a los acreedores del causante y puede extinguirse por las causas establecidas en la ley.",
+        ],
+      },
+      {
+        title: "Qué conviene documentar",
+        bullets: [
+          "Existencia, duración e inscripción de la unión.",
+          "Titularidad y origen de los bienes.",
+          "Aportes realizados por cada conviviente.",
+          "Testamento, seguros y designaciones de beneficiarios.",
+          "Situación habitacional después del fallecimiento.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Una unión convivencial registrada da derecho a heredar?",
+        answer:
+          "No por sí sola. La registración no incorpora al conviviente al orden de herederos intestados.",
+      },
+      {
+        question: "¿Puede recibir bienes mediante testamento?",
+        answer:
+          "Sí, dentro de la porción disponible y respetando los derechos de los herederos legitimarios cuando existan.",
+      },
+      {
+        question: "¿Puede seguir viviendo en la casa?",
+        answer:
+          "Puede invocar un derecho de habitación temporal si reúne todos los requisitos del artículo 527. No es automático para cualquier inmueble ni tiene el mismo alcance que el derecho del cónyuge.",
+      },
+    ],
+    related: ["derechos-del-conyuge-viudo-en-una-sucesion", "sucesion-con-testamento", "bienes-propios-y-gananciales-en-una-sucesion"],
+  },
+  {
+    slug: "sucesion-sin-hijos-quienes-heredan",
+    eyebrow: "Sucesión sin descendientes",
+    title: "Sucesión sin hijos: quiénes heredan",
+    metaTitle: "Sucesión sin hijos: quiénes heredan",
+    description:
+      "Quiénes heredan cuando una persona fallece sin hijos: cónyuge, padres, hermanos, sobrinos y otros parientes según cada caso.",
+    intro:
+      "Que una persona no tenga hijos no significa que no existan herederos. Deben reconstruirse el vínculo matrimonial, los ascendientes y, sólo en su ausencia, los parientes colaterales.",
+    answer:
+      "Sin descendientes, heredan los ascendientes más próximos y el cónyuge según las reglas de concurrencia. Si no hay descendientes ni ascendientes, el cónyuge excluye a los colaterales; únicamente cuando tampoco hay cónyuge heredan los colaterales hasta el cuarto grado.",
+    sections: [
+      {
+        title: "Orden que debe analizarse",
+        bullets: [
+          "Cónyuge y ascendientes, si existen.",
+          "Cónyuge sin descendientes ni ascendientes.",
+          "Hermanos y descendientes de hermanos.",
+          "Otros colaterales hasta el cuarto grado.",
+          "Testamento y derechos legitimarios aplicables.",
+        ],
+      },
+      {
+        title: "Padres y cónyuge",
+        paragraphs: [
+          "A falta de descendientes, los ascendientes más próximos heredan por partes iguales. Si también existe cónyuge, a éste le corresponde la mitad de la herencia.",
+          "Si no hay ascendientes, el cónyuge recibe la totalidad y desplaza a hermanos, sobrinos y demás colaterales.",
+        ],
+      },
+      {
+        title: "Cuando tampoco hay cónyuge",
+        paragraphs: [
+          "Los hermanos y sus descendientes tienen prioridad dentro de los colaterales. Para calcular quién concurre deben reconstruirse grados, ramas familiares, premoriencia y representación.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Los hermanos heredan si existe cónyuge?",
+        answer:
+          "No cuando faltan descendientes y ascendientes: en ese supuesto el cónyuge hereda la totalidad y excluye a los colaterales.",
+      },
+      {
+        question: "¿Los padres heredan si no hay hijos?",
+        answer:
+          "Sí, como ascendientes más próximos, salvo que existan circunstancias que modifiquen su vocación. Si concurre el cónyuge, éste recibe la mitad.",
+      },
+      {
+        question: "¿La pareja conviviente desplaza a los hermanos?",
+        answer:
+          "No por el solo hecho de convivir. Puede tener otros derechos o recibir por testamento, pero no integra automáticamente el orden intestado.",
+      },
+    ],
+    related: ["derechos-del-conyuge-viudo-en-una-sucesion", "herencia-entre-hermanos-y-sobrinos", "conviviente-hereda-en-argentina"],
+  },
+  {
+    slug: "herencia-entre-hermanos-y-sobrinos",
+    eyebrow: "Hermanos y sobrinos",
+    title: "Herencia entre hermanos y sobrinos: orden y representación",
+    metaTitle: "Herencia entre hermanos y sobrinos",
+    description:
+      "Cuándo heredan hermanos y sobrinos, cómo funciona la representación y qué diferencia existe entre hermanos bilaterales y unilaterales.",
+    intro:
+      "Los hermanos y sobrinos no heredan en cualquier situación. Ingresan al orden sucesorio cuando faltan descendientes, ascendientes y cónyuge.",
+    answer:
+      "Los parientes colaterales heredan hasta el cuarto grado si no existen descendientes, ascendientes ni cónyuge. Los hermanos y sus descendientes desplazan a los demás colaterales; los sobrinos pueden representar a su padre o madre premuerto dentro de los límites legales.",
+    sections: [
+      {
+        title: "Prioridad dentro de los colaterales",
+        paragraphs: [
+          "El pariente de grado más próximo excluye al más lejano, excepto por la representación de los descendientes de hermanos. Por eso un árbol familiar completo es indispensable antes de estimar porciones.",
+        ],
+      },
+      {
+        title: "Hermanos bilaterales y unilaterales",
+        paragraphs: [
+          "Cuando concurren hermanos de doble vínculo y medio hermanos, cada hermano unilateral recibe la mitad de lo que corresponde a cada hermano bilateral. En otros supuestos, los colaterales concurrentes dividen por partes iguales.",
+        ],
+      },
+      {
+        title: "Documentos necesarios",
+        bullets: [
+          "Partidas que conecten al causante con el tronco familiar común.",
+          "Defunciones de familiares premuertos.",
+          "Nacimientos de sobrinos que concurran por representación.",
+          "Matrimonio, divorcio o información sobre cónyuge.",
+          "Datos sobre ascendientes y descendientes que puedan desplazar el orden.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Un sobrino hereda si su padre o madre vive?",
+        answer:
+          "Como regla, el grado más próximo desplaza al más lejano. La representación requiere alguno de los supuestos previstos por la ley.",
+      },
+      {
+        question: "¿Un medio hermano recibe lo mismo?",
+        answer:
+          "Cuando concurre con hermanos bilaterales, recibe la mitad de lo que corresponde a cada uno de ellos.",
+      },
+      {
+        question: "¿Los primos pueden heredar?",
+        answer:
+          "Pueden integrar el orden colateral dentro del cuarto grado cuando no existen parientes con prioridad. Debe reconstruirse el árbol completo.",
+      },
+    ],
+    related: ["sucesion-sin-hijos-quienes-heredan", "sucesion-sin-testamento", "heredero-omitido-ampliacion-declaratoria"],
+  },
+  {
+    slug: "heredero-omitido-ampliacion-declaratoria",
+    eyebrow: "Heredero omitido",
+    title: "Heredero omitido y ampliación de la declaratoria",
+    metaTitle: "Heredero omitido y ampliación de declaratoria",
+    description:
+      "Qué puede hacer una persona con derecho hereditario que no fue incluida en la declaratoria y cómo se revisan los actos ya realizados.",
+    intro:
+      "Una declaratoria no vuelve inexistente a quien tenía igual o mejor derecho pero no participó. La respuesta depende de si basta ampliar la resolución o si también deben reclamarse bienes y revisar actos anteriores.",
+    answer:
+      "La persona omitida puede presentarse, acreditar su vínculo y solicitar la ampliación cuando corresponda. Si los bienes están en poder de un heredero aparente o ya fueron distribuidos, puede ser necesario promover una petición de herencia y analizar la buena o mala fe y los actos realizados.",
+    sections: [
+      {
+        title: "Qué debe acreditar",
+        bullets: [
+          "Identidad y vínculo con la persona fallecida.",
+          "Orden sucesorio y concurrencia con otros herederos.",
+          "Estado actual del expediente.",
+          "Bienes inscriptos, adjudicados o vendidos.",
+          "Momento en que tomó conocimiento del trámite.",
+        ],
+      },
+      {
+        title: "Ampliación y petición de herencia",
+        paragraphs: [
+          "La ampliación incorpora a quien acredita vocación concurrente sin necesariamente desplazar a los ya declarados. La petición de herencia, en cambio, busca obtener la entrega total o parcial frente a quien posee bienes invocando título de heredero.",
+          "Elegir la vía depende de la controversia y del estado material y registral del patrimonio.",
+        ],
+      },
+      {
+        title: "Actos ya celebrados",
+        paragraphs: [
+          "La ley distingue actos de administración y disposición, así como la buena o mala fe del heredero aparente y de terceros. No toda operación anterior tiene la misma consecuencia; deben revisarse títulos, notificaciones y conocimiento de la controversia.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Puede ampliarse una declaratoria ya inscripta?",
+        answer:
+          "Puede solicitarse la ampliación si se acredita el derecho, pero también deben revisarse las inscripciones y actos posteriores para determinar qué medidas adicionales corresponden.",
+      },
+      {
+        question: "¿Pierdo el derecho por no haber participado al inicio?",
+        answer:
+          "La falta de presentación inicial no elimina por sí sola la vocación hereditaria. Existen, sin embargo, efectos y defensas vinculados con bienes singulares y actos ya cumplidos.",
+      },
+      {
+        question: "¿Se anulan automáticamente las ventas realizadas?",
+        answer:
+          "No. La validez y consecuencias dependen del tipo de acto, la buena o mala fe y el conocimiento de terceros. Cada operación debe analizarse individualmente.",
+      },
+    ],
+    related: ["declaratoria-de-herederos", "heredero-con-domicilio-desconocido", "herencia-entre-hermanos-y-sobrinos"],
+  },
+  {
+    slug: "donaciones-en-vida-y-colacion-hereditaria",
+    eyebrow: "Donaciones y colación",
+    title: "Donaciones en vida y colación hereditaria",
+    metaTitle: "Donaciones en vida y colación hereditaria",
+    description:
+      "Cómo inciden las donaciones realizadas en vida al calcular y partir una herencia, quiénes deben colacionar y cuándo puede pedirse reducción.",
+    intro:
+      "Una donación válida no desaparece por el fallecimiento, pero puede tener que computarse al formar las porciones hereditarias o ser reducida si afecta derechos protegidos.",
+    answer:
+      "Los descendientes y el cónyuge que concurren a una sucesión intestada deben, como regla, colacionar el valor de lo recibido del causante, salvo dispensa o mejora expresa. La colación no equivale necesariamente a devolver el bien: incorpora su valor al cálculo y lo imputa a la porción del donatario.",
+    sections: [
+      {
+        title: "Qué significa colacionar",
+        paragraphs: [
+          "El valor se determina a la época de la partición según el estado del bien al momento de la donación. Se suma a la masa después de pagar deudas y luego se atribuye ese valor al lote del heredero donatario.",
+          "No toda ventaja o gasto familiar se colaciona: la ley enumera beneficios incluidos y excluidos.",
+        ],
+      },
+      {
+        title: "Dispensa, mejora y legítima",
+        paragraphs: [
+          "El causante puede dispensar de colación o establecer una mejora dentro de los límites disponibles. Si la donación excede lo permitido o afecta una porción legítima, pueden corresponder acciones de complemento o reducción.",
+        ],
+      },
+      {
+        title: "Prueba que conviene reunir",
+        bullets: [
+          "Escritura o instrumento de la donación.",
+          "Fecha, objeto y condiciones del acto.",
+          "Estado del bien al ser donado y valor a la partición.",
+          "Dispensa, mejora o testamento relacionado.",
+          "Identidad de los legitimarios y demás donaciones computables.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "¿Hay que devolver siempre el bien donado?",
+        answer:
+          "No. La colación opera normalmente sobre el valor y su imputación en la partición. Las acciones de reducción tienen otro fundamento y efectos.",
+      },
+      {
+        question: "¿Toda donación a un hijo se descuenta de su herencia?",
+        answer:
+          "Como regla se colaciona su valor cuando ese descendiente concurre, salvo dispensa o mejora válida y sin perjuicio de los límites de la legítima.",
+      },
+      {
+        question: "¿Los gastos de educación se colacionan?",
+        answer:
+          "En principio no, excepto que sean desproporcionados respecto de la fortuna y condición del causante. La ley también excluye otros gastos y presentes de uso.",
+      },
+    ],
+    related: ["particion-de-bienes-hereditarios", "sucesion-con-testamento", "derechos-del-conyuge-viudo-en-una-sucesion"],
+  },
 ];
+
+export const guideCategories = [
+  {
+    id: "iniciar",
+    title: "Iniciar y tramitar la sucesión",
+    description: "Competencia, documentos, declaratoria, costos y decisiones iniciales.",
+    slugs: [
+      "documentos-para-iniciar-una-sucesion",
+      "declaratoria-de-herederos",
+      "sucesion-sin-testamento",
+      "sucesion-con-testamento",
+      "costo-de-una-sucesion-en-provincia-de-buenos-aires",
+      "cuanto-tarda-una-sucesion-en-provincia-de-buenos-aires",
+      "renunciar-a-una-herencia",
+      "cesion-de-derechos-hereditarios",
+    ],
+  },
+  {
+    id: "quienes-heredan",
+    title: "Quiénes heredan",
+    description: "Órdenes sucesorios, vínculos familiares y personas que requieren protección especial.",
+    slugs: [
+      "derechos-del-conyuge-viudo-en-una-sucesion",
+      "conviviente-hereda-en-argentina",
+      "sucesion-sin-hijos-quienes-heredan",
+      "herencia-entre-hermanos-y-sobrinos",
+      "sucesion-con-herederos-menores-de-edad",
+      "heredero-omitido-ampliacion-declaratoria",
+      "heredero-con-domicilio-desconocido",
+      "sucesion-con-herederos-en-el-extranjero",
+    ],
+  },
+  {
+    id: "bienes",
+    title: "Bienes, partición e inscripción",
+    description: "Cómo identificar, distribuir, registrar, conservar o vender el patrimonio heredado.",
+    slugs: [
+      "particion-de-bienes-hereditarios",
+      "bienes-propios-y-gananciales-en-una-sucesion",
+      "donaciones-en-vida-y-colacion-hereditaria",
+      "inscripcion-de-bienes-heredados",
+      "tracto-abreviado",
+      "vender-inmueble-en-una-sucesion",
+      "sucesion-de-automotores-en-provincia-de-buenos-aires",
+      "cuentas-bancarias-y-plazos-fijos-en-una-sucesion",
+    ],
+  },
+  {
+    id: "conflictos",
+    title: "Conflictos y situaciones especiales",
+    description: "Desacuerdos, deudas, ocupación de bienes y patrimonios en distintas jurisdicciones.",
+    slugs: [
+      "conflictos-entre-herederos",
+      "heredero-no-quiere-firmar-sucesion",
+      "heredero-ocupa-inmueble-sucesion",
+      "sucesion-con-deudas",
+      "sucesion-con-bienes-en-otras-provincias-o-exterior",
+    ],
+  },
+] as const;
 
 export function getSeoPage(slug: string) {
   return seoPages.find((page) => page.slug === slug);
@@ -1298,6 +1795,48 @@ const apostilleSource: OfficialSource = {
   name: "Cancillería Argentina",
   detail: "Información oficial sobre apostilla y legalización de documentos con validez internacional.",
   url: "https://cancilleria.gob.ar/es/servicios/apostilla-legalizacion-con-validez-internacional-tad",
+};
+
+const inheritanceRenunciationSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2298 a 2301: forma, retractación y efectos de la renuncia.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritancePartitionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2363 a 2384: acción, modos y efectos de la partición hereditaria.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const spouseSuccessionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2433 a 2437 y 2383: sucesión y habitación del cónyuge supérstite.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const cohabitantRightsSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 527 y 528: vivienda y bienes ante el fallecimiento de un conviviente.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const intestateOrderSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2424 a 2440: órdenes de descendientes, ascendientes, cónyuge y colaterales.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritancePetitionSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2310 a 2315: petición de herencia y actos del heredero aparente.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
+};
+
+const inheritanceCollationSource: OfficialSource = {
+  name: "Código Civil y Comercial de la Nación",
+  detail: "Artículos 2385 a 2396 y 2444 a 2459: colación, legítima y reducción.",
+  url: "https://www.argentina.gob.ar/normativa/nacional/ley-26994-235975/actualizacion",
 };
 
 export const geoContent: Record<string, GeoContent> = {
@@ -1615,6 +2154,126 @@ export const geoContent: Record<string, GeoContent> = {
       "¿Qué documentos, impuestos y profesionales locales pueden intervenir?",
     ],
     sources: [internationalSuccessionSource, apostilleSource, registryLawSource],
+  },
+  "renunciar-a-una-herencia": {
+    keyPoints: [
+      "Sólo puede renunciar quien todavía no aceptó la herencia.",
+      "La ley exige escritura pública o acta judicial incorporada al expediente.",
+      "La renuncia no permite elegir libremente quién recibe la porción.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una heredera conoce deudas y no desea continuar. Antes de renunciar revisa si realizó actos de aceptación y si sus hijos podrían concurrir por representación.",
+    questions: [
+      "¿Se realizó algún acto que pueda implicar aceptación?",
+      "¿Qué activo, pasivo y cargas se conocen?",
+      "¿Quiénes serían llamados después de la renuncia?",
+    ],
+    sources: [inheritanceRenunciationSource, inheritanceDebtsSource, proceduralCodeSource],
+  },
+  "particion-de-bienes-hereditarios": {
+    keyPoints: [
+      "La indivisión hereditaria termina mediante la partición.",
+      "El acuerdo privado exige presencia, capacidad y unanimidad.",
+      "Sin acuerdo o con personas protegidas, la partición debe ser judicial.",
+    ],
+    scenario:
+      "Ejemplo orientativo: tres herederos reciben una casa y dos vehículos. Comparan valores y acuerdan adjudicaciones con una compensación para evitar una venta innecesaria.",
+    questions: [
+      "¿El inventario y la valuación están aprobados?",
+      "¿Todos son capaces, están presentes y prestan conformidad?",
+      "¿Conviene adjudicar, compensar o vender cada bien?",
+    ],
+    sources: [inheritancePartitionSource, proceduralCodeSource, registryLawSource],
+  },
+  "derechos-del-conyuge-viudo-en-una-sucesion": {
+    keyPoints: [
+      "Liquidación matrimonial y herencia son cálculos distintos.",
+      "La porción cambia según concurran descendientes o ascendientes.",
+      "Puede existir un derecho vitalicio de habitación sobre el hogar conyugal.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una viuda concurre con dos hijos y existen una vivienda ganancial y un lote propio del causante. Cada bien debe clasificarse antes de calcular las porciones.",
+    questions: [
+      "¿Qué régimen matrimonial estaba vigente?",
+      "¿Qué bienes son propios y cuáles gananciales?",
+      "¿Existen descendientes, ascendientes o separación de hecho?",
+    ],
+    sources: [spouseSuccessionSource, matrimonialPropertySource, intestateOrderSource],
+  },
+  "conviviente-hereda-en-argentina": {
+    keyPoints: [
+      "La convivencia no crea por sí sola vocación hereditaria intestada.",
+      "Un testamento puede beneficiar al conviviente dentro de la porción disponible.",
+      "El derecho de habitación temporal exige condiciones específicas.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una pareja convivió diez años en una casa del fallecido. La persona sobreviviente revisa si cumple los requisitos habitacionales y si existe un testamento, sin asumir una cuota hereditaria automática.",
+    questions: [
+      "¿La unión estaba registrada y cómo se acredita?",
+      "¿Quién es titular de la vivienda y de los demás bienes?",
+      "¿Existen herederos legitimarios o testamento?",
+    ],
+    sources: [cohabitantRightsSource, intestateOrderSource, civilCodeSource],
+  },
+  "sucesion-sin-hijos-quienes-heredan": {
+    keyPoints: [
+      "Sin hijos todavía pueden heredar ascendientes y cónyuge.",
+      "El cónyuge excluye a colaterales si no hay descendientes ni ascendientes.",
+      "Hermanos y sobrinos ingresan sólo cuando faltan órdenes preferentes.",
+    ],
+    scenario:
+      "Ejemplo orientativo: una persona casada fallece sin hijos y sus padres ya murieron. El cónyuge desplaza a los hermanos dentro de la sucesión intestada.",
+    questions: [
+      "¿Existe cónyuge con vocación hereditaria?",
+      "¿Viven padres, abuelos u otros ascendientes?",
+      "¿Hay testamento o parientes colaterales?",
+    ],
+    sources: [intestateOrderSource, civilCodeSource, proceduralCodeSource],
+  },
+  "herencia-entre-hermanos-y-sobrinos": {
+    keyPoints: [
+      "Los colaterales heredan sólo si faltan descendientes, ascendientes y cónyuge.",
+      "Los hermanos y sus descendientes desplazan a otros colaterales.",
+      "El vínculo bilateral o unilateral modifica la división.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante no dejó padres, hijos ni cónyuge. Concurren una hermana y dos hijos de un hermano premuerto, por lo que debe calcularse la representación por rama.",
+    questions: [
+      "¿Existe alguien de un orden sucesorio preferente?",
+      "¿Qué hermanos viven y cuáles fallecieron antes?",
+      "¿Los vínculos son bilaterales o unilaterales?",
+    ],
+    sources: [intestateOrderSource, civilCodeSource, proceduralCodeSource],
+  },
+  "heredero-omitido-ampliacion-declaratoria": {
+    keyPoints: [
+      "La omisión no elimina automáticamente la vocación hereditaria.",
+      "Ampliación y petición de herencia resuelven problemas diferentes.",
+      "Los actos previos deben revisarse según su naturaleza y la buena fe.",
+    ],
+    scenario:
+      "Ejemplo orientativo: un hijo se entera de que sus hermanos obtuvieron la declaratoria y vendieron un vehículo. Acredita el vínculo y analiza tanto la ampliación como los efectos de esa operación.",
+    questions: [
+      "¿Qué vínculo y orden sucesorio puede acreditarse?",
+      "¿Qué resoluciones, inscripciones o ventas ya existen?",
+      "¿Quién poseía los bienes y qué conocían los terceros?",
+    ],
+    sources: [inheritancePetitionSource, proceduralCodeSource, civilCodeSource],
+  },
+  "donaciones-en-vida-y-colacion-hereditaria": {
+    keyPoints: [
+      "La colación computa el valor de determinadas donaciones en la partición.",
+      "Dispensa y mejora tienen límites vinculados con la legítima.",
+      "Colación y reducción son acciones distintas.",
+    ],
+    scenario:
+      "Ejemplo orientativo: el causante donó un departamento a una hija y luego falleció dejando otros bienes. Para partir se revisan la escritura, la dispensa y el valor computable.",
+    questions: [
+      "¿Quién recibió, cuándo y bajo qué instrumento?",
+      "¿Existe dispensa de colación o cláusula de mejora?",
+      "¿Qué legitimarios y otras donaciones deben computarse?",
+    ],
+    sources: [inheritanceCollationSource, inheritancePartitionSource, civilCodeSource],
   },
 };
 
