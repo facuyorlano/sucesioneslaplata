@@ -6,7 +6,7 @@ import { FaqList } from "@/components/faq-list";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
-import { SITE, homeFaqs, seoPages, whatsappUrl } from "@/lib/site";
+import { SITE, guideCategories, homeFaqs, whatsappUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Abogados de Sucesiones en La Plata y Provincia de Buenos Aires",
@@ -157,17 +157,25 @@ export default function Home() {
               <p className="section-kicker">Información para decidir mejor</p>
               <h2>Guías sobre sucesiones en Provincia</h2>
             </div>
-            <p>Respuestas directas, sin cifras ni plazos genéricos que pueden no corresponder a tu situación.</p>
+            <p>
+              Organizamos las guías por etapa y problema para que encuentres una respuesta útil sin recorrer
+              una lista interminable.
+            </p>
           </div>
-          <div className="guide-grid">
-            {seoPages.slice(6).map((page) => (
-              <Link href={`/${page.slug}`} key={page.slug} className="guide-card">
-                <span>{page.eyebrow}</span>
-                <h3>{page.title}</h3>
-                <p>{page.answer}</p>
-                <b>Leer la guía <ArrowIcon /></b>
+          <div className="guide-category-grid">
+            {guideCategories.map((category) => (
+              <Link href={`/guias-de-sucesiones#${category.id}`} key={category.id} className="guide-category-card">
+                <span>{category.slugs.length} guías</span>
+                <h3>{category.title}</h3>
+                <p>{category.description}</p>
+                <b>Explorar la categoría <ArrowIcon /></b>
               </Link>
             ))}
+          </div>
+          <div className="guide-all-link">
+            <Link className="button button-outline" href="/guias-de-sucesiones">
+              Ver todas las guías
+            </Link>
           </div>
         </section>
 
