@@ -21,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    {
+      url: `${SITE.url}/guias-de-sucesiones`,
+      lastModified: new Date(SITE.updated),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     ...seoPages.map((page) => ({
       url: `${SITE.url}/${page.slug}`,
       lastModified: new Date(SITE.updated),
