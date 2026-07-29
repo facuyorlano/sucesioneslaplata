@@ -170,6 +170,66 @@ const guideBySlug: Record<string, Guide> = {
     title: "Bienes en otras provincias o en el exterior",
     eyebrow: "Otras jurisdicciones",
   },
+  "como-saber-si-una-persona-fallecida-tenia-bienes": {
+    slug: "como-saber-si-una-persona-fallecida-tenia-bienes",
+    title: "Cómo saber qué bienes tenía una persona fallecida",
+    eyebrow: "Búsqueda de bienes",
+  },
+  "como-saber-si-ya-hay-una-sucesion-iniciada": {
+    slug: "como-saber-si-ya-hay-una-sucesion-iniciada",
+    title: "Cómo saber si ya existe una sucesión iniciada",
+    eyebrow: "Sucesión ya iniciada",
+  },
+  "que-hacer-despues-de-la-declaratoria-de-herederos": {
+    slug: "que-hacer-despues-de-la-declaratoria-de-herederos",
+    title: "Qué hacer después de la declaratoria",
+    eyebrow: "Después de la declaratoria",
+  },
+  "administrador-de-la-sucesion-y-rendicion-de-cuentas": {
+    slug: "administrador-de-la-sucesion-y-rendicion-de-cuentas",
+    title: "Administrador y rendición de cuentas",
+    eyebrow: "Administración sucesoria",
+  },
+  "vender-inmueble-con-herederos-menores": {
+    slug: "vender-inmueble-con-herederos-menores",
+    title: "Vender un inmueble con herederos menores",
+    eyebrow: "Venta con menores",
+  },
+  "inmueble-con-boleto-de-compraventa-sin-escritura-sucesion": {
+    slug: "inmueble-con-boleto-de-compraventa-sin-escritura-sucesion",
+    title: "Inmueble con boleto y sin escritura",
+    eyebrow: "Boleto sin escritura",
+  },
+  "sucesiones-encadenadas-fallece-un-heredero": {
+    slug: "sucesiones-encadenadas-fallece-un-heredero",
+    title: "Sucesiones encadenadas",
+    eyebrow: "Fallece un heredero",
+  },
+  "conyuge-separado-de-hecho-o-divorciado-hereda": {
+    slug: "conyuge-separado-de-hecho-o-divorciado-hereda",
+    title: "Cónyuge separado o divorciado: ¿hereda?",
+    eyebrow: "Cónyuge separado",
+  },
+  "derecho-de-representacion-heredan-los-nietos": {
+    slug: "derecho-de-representacion-heredan-los-nietos",
+    title: "Cuándo heredan los nietos por representación",
+    eyebrow: "Representación",
+  },
+  "impugnacion-y-nulidad-de-testamento": {
+    slug: "impugnacion-y-nulidad-de-testamento",
+    title: "Impugnación y nulidad de testamento",
+    eyebrow: "Nulidad de testamento",
+  },
+  "legitima-hereditaria-y-accion-de-reduccion": {
+    slug: "legitima-hereditaria-y-accion-de-reduccion",
+    title: "Legítima hereditaria y acción de reducción",
+    eyebrow: "Legítima hereditaria",
+  },
+  "gastos-impuestos-y-reparaciones-pagados-por-un-heredero": {
+    slug: "gastos-impuestos-y-reparaciones-pagados-por-un-heredero",
+    title: "Gastos pagados por un solo heredero",
+    eyebrow: "Gastos entre herederos",
+  },
 };
 
 const categories: Category[] = [
@@ -202,6 +262,21 @@ const categories: Category[] = [
         label: "Quiero renunciar o ceder mi parte",
         keywords: ["renunciar", "renuncia", "no quiero heredar", "ceder", "cesion", "vender mi parte"],
         guides: ["renunciar-a-una-herencia", "cesion-de-derechos-hereditarios", "sucesion-con-deudas"],
+      },
+      {
+        label: "No sé si la sucesión ya fue iniciada",
+        keywords: ["sucesion iniciada", "ya iniciaron", "ya existe sucesion", "buscar expediente", "juicios universales"],
+        guides: ["como-saber-si-ya-hay-una-sucesion-iniciada", "heredero-omitido-ampliacion-declaratoria", "declaratoria-de-herederos"],
+      },
+      {
+        label: "Ya tengo la declaratoria",
+        keywords: ["ya tengo declaratoria", "despues de la declaratoria", "declaratoria dictada", "que sigue", "como continuar"],
+        guides: ["que-hacer-despues-de-la-declaratoria-de-herederos", "inscripcion-de-bienes-heredados", "particion-de-bienes-hereditarios"],
+      },
+      {
+        label: "Falleció un heredero durante el trámite",
+        keywords: ["fallecio un heredero", "murio un heredero", "dos sucesiones", "sucesiones encadenadas", "fallecimientos sucesivos"],
+        guides: ["sucesiones-encadenadas-fallece-un-heredero", "derecho-de-representacion-heredan-los-nietos", "declaratoria-de-herederos"],
       },
     ],
   },
@@ -239,6 +314,16 @@ const categories: Category[] = [
         label: "Un heredero no fue incluido",
         keywords: ["omitido", "no me incluyeron", "me dejaron afuera", "ampliar declaratoria", "heredero desconocido"],
         guides: ["heredero-omitido-ampliacion-declaratoria", "declaratoria-de-herederos", "heredero-con-domicilio-desconocido"],
+      },
+      {
+        label: "Cónyuge separado de hecho o divorciado",
+        keywords: ["separado de hecho", "separada de hecho", "divorciado", "divorciada", "ex conyuge", "ya no vivian juntos"],
+        guides: ["conyuge-separado-de-hecho-o-divorciado-hereda", "derechos-del-conyuge-viudo-en-una-sucesion", "bienes-propios-y-gananciales-en-una-sucesion"],
+      },
+      {
+        label: "Nietos que podrían heredar",
+        keywords: ["nieto", "nieta", "nietos", "representacion", "hijo fallecido antes", "heredar por rama"],
+        guides: ["derecho-de-representacion-heredan-los-nietos", "sucesiones-encadenadas-fallece-un-heredero", "sucesion-sin-testamento"],
       },
     ],
   },
@@ -282,6 +367,21 @@ const categories: Category[] = [
         keywords: ["otra provincia", "exterior", "otro pais", "uruguay", "españa", "italia", "estados unidos"],
         guides: ["sucesion-con-bienes-en-otras-provincias-o-exterior", "sucesion-con-herederos-en-el-extranjero", "inscripcion-de-bienes-heredados"],
       },
+      {
+        label: "No sabemos qué bienes tenía",
+        keywords: ["buscar bienes", "que bienes tenia", "no sabemos los bienes", "averiguar patrimonio", "bienes desconocidos", "oculto bienes"],
+        guides: ["como-saber-si-una-persona-fallecida-tenia-bienes", "documentos-para-iniciar-una-sucesion", "cuentas-bancarias-y-plazos-fijos-en-una-sucesion"],
+      },
+      {
+        label: "Vender un inmueble con un heredero menor",
+        keywords: ["vender con menor", "heredero menor", "menor propietario", "autorizacion judicial venta", "hijo menor venta"],
+        guides: ["vender-inmueble-con-herederos-menores", "sucesion-con-herederos-menores-de-edad", "vender-inmueble-en-una-sucesion"],
+      },
+      {
+        label: "Hay un boleto pero no escritura",
+        keywords: ["boleto compraventa", "sin escritura", "no escrituro", "boleto de compra", "escritura pendiente"],
+        guides: ["inmueble-con-boleto-de-compraventa-sin-escritura-sucesion", "inscripcion-de-bienes-heredados", "documentos-para-iniciar-una-sucesion"],
+      },
     ],
   },
   {
@@ -314,6 +414,26 @@ const categories: Category[] = [
         keywords: ["no encontramos", "domicilio desconocido", "no sabemos donde vive", "desaparecido", "sin contacto"],
         guides: ["heredero-con-domicilio-desconocido", "heredero-no-quiere-firmar-sucesion", "declaratoria-de-herederos"],
       },
+      {
+        label: "Hay problemas con quien administra",
+        keywords: ["administrador", "rendir cuentas", "rendicion de cuentas", "cobra alquileres", "maneja el dinero", "remover administrador"],
+        guides: ["administrador-de-la-sucesion-y-rendicion-de-cuentas", "conflictos-entre-herederos", "gastos-impuestos-y-reparaciones-pagados-por-un-heredero"],
+      },
+      {
+        label: "Un heredero pagó todos los gastos",
+        keywords: ["pague impuestos", "pago todos los gastos", "reintegro gastos", "reparaciones", "arreglos de la casa", "servicios"],
+        guides: ["gastos-impuestos-y-reparaciones-pagados-por-un-heredero", "heredero-ocupa-inmueble-sucesion", "administrador-de-la-sucesion-y-rendicion-de-cuentas"],
+      },
+      {
+        label: "Quieren cuestionar un testamento",
+        keywords: ["impugnar testamento", "anular testamento", "testamento falso", "no estaba lucido", "forzaron a firmar", "nulidad"],
+        guides: ["impugnacion-y-nulidad-de-testamento", "sucesion-con-testamento", "legitima-hereditaria-y-accion-de-reduccion"],
+      },
+      {
+        label: "Una donación o testamento afecta la legítima",
+        keywords: ["legitima", "reduccion", "me dejaron sin herencia", "donaron todo", "tercio disponible", "porcion disponible"],
+        guides: ["legitima-hereditaria-y-accion-de-reduccion", "donaciones-en-vida-y-colacion-hereditaria", "sucesion-con-testamento"],
+      },
     ],
   },
   {
@@ -340,6 +460,11 @@ const categories: Category[] = [
         label: "Apareció un heredero después",
         keywords: ["aparecio un heredero", "heredero nuevo", "ya hicieron la sucesion", "declaratoria ya hecha"],
         guides: ["heredero-omitido-ampliacion-declaratoria", "declaratoria-de-herederos", "conflictos-entre-herederos"],
+      },
+      {
+        label: "Fallecieron varias personas de la familia",
+        keywords: ["varios fallecidos", "murieron dos herederos", "cadena de sucesiones", "sucesiones juntas", "fallecio despues"],
+        guides: ["sucesiones-encadenadas-fallece-un-heredero", "derecho-de-representacion-heredan-los-nietos", "como-saber-si-ya-hay-una-sucesion-iniciada"],
       },
     ],
   },
