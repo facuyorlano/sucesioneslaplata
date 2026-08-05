@@ -8,6 +8,7 @@ export function SiteFooter() {
         <div>
           <Link href="/" className="footer-brand">Abogados de Sucesiones <span>en La Plata</span></Link>
           <p>Asesoramiento jurídico en sucesiones para La Plata y toda la Provincia de Buenos Aires.</p>
+          <a href="https://estudiojuridicoyorlano.com.ar" target="_blank" rel="noopener noreferrer">Sitio institucional de Yorlano &amp; Asociados</a>
         </div>
         <div>
           <h2>Trámites</h2>
